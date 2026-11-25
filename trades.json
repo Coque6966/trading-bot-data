@@ -1,0 +1,540 @@
+{
+  "demo": true,
+  "moneda": "USD (falso, simulacion, $0 real)",
+  "saldo_inicial": 141.3,
+  "saldo_actual": 141.0481,
+  "pnl_total_usd": -0.2519,
+  "operaciones": [
+    {
+      "id": 12,
+      "simbolo": "HOGE",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T05:59:06+00:00",
+      "cierre": "2026-11-25T06:16:07+00:00",
+      "entrada": 0.0007047059999999999,
+      "salida": 0.0006538,
+      "tamano_usd": 1.38,
+      "pnl_usd": -0.1076,
+      "pnl_pct": -7.8,
+      "saldo_despues": 141.0481,
+      "motivo_cierre": "fin-de-sesion",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+0%); volumen 24h >= liquidez (ratio 1.8); liquidez alta ($106535); actividad media en 1h (57 txns); edad del par sana (239.0 h)"
+    },
+    {
+      "id": 11,
+      "simbolo": "jingyu",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T05:44:56+00:00",
+      "cierre": "2026-11-25T06:15:59+00:00",
+      "entrada": 0.00010562549999999999,
+      "salida": 0.0001079,
+      "tamano_usd": 1.4,
+      "pnl_usd": 0.0217,
+      "pnl_pct": 1.55,
+      "saldo_despues": 139.7716,
+      "motivo_cierre": "fin-de-sesion",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+13%); volumen 24h >= liquidez (ratio 9.9); liquidez media ($25808); mucha actividad en 1h (1051 txns); edad del par sana (141.6 h)"
+    },
+    {
+      "id": 10,
+      "simbolo": "WASTED",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T05:44:56+00:00",
+      "cierre": "2026-11-25T06:15:52+00:00",
+      "entrada": 0.001130625,
+      "salida": 0.001130625,
+      "tamano_usd": 1.41,
+      "pnl_usd": -0.0084,
+      "pnl_pct": -0.6,
+      "saldo_despues": 138.3458,
+      "motivo_cierre": "fin-de-sesion",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 10,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 10/10, red neuronal -1.0/10, subiendo con calma en 1h (+1%); volumen 24h >= liquidez (ratio 5.5); liquidez alta ($102627); mucha actividad en 1h (504 txns); edad del par sana (611.6 h)"
+    },
+    {
+      "id": 9,
+      "simbolo": "Memeployed",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T05:44:57+00:00",
+      "cierre": "2026-11-25T05:58:47+00:00",
+      "entrada": 9.064095e-05,
+      "salida": 8.082e-05,
+      "tamano_usd": 1.38,
+      "pnl_usd": -0.1573,
+      "pnl_pct": -11.4,
+      "saldo_despues": 138.3242,
+      "motivo_cierre": "stop-loss",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+23%); volumen 24h >= liquidez (ratio 36.2); liquidez media ($25920); mucha actividad en 1h (336 txns); edad del par sana (16.0 h)"
+    },
+    {
+      "id": 8,
+      "simbolo": "Memeployed",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T05:42:44+00:00",
+      "cierre": "2026-11-25T05:44:26+00:00",
+      "entrada": 9.028919999999999e-05,
+      "salida": 9.244e-05,
+      "tamano_usd": 1.38,
+      "pnl_usd": 0.0245,
+      "pnl_pct": 1.78,
+      "saldo_despues": 141.2687,
+      "motivo_cierre": "fin-de-sesion",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+23%); volumen 24h >= liquidez (ratio 36.3); liquidez media ($25874); mucha actividad en 1h (335 txns); edad del par sana (15.9 h)"
+    },
+    {
+      "id": 7,
+      "simbolo": "jingyu",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T05:42:44+00:00",
+      "cierre": "2026-11-25T05:44:25+00:00",
+      "entrada": 0.00010592699999999999,
+      "salida": 0.0001051,
+      "tamano_usd": 1.4,
+      "pnl_usd": -0.0193,
+      "pnl_pct": -1.38,
+      "saldo_despues": 139.86,
+      "motivo_cierre": "fin-de-sesion",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+14%); volumen 24h >= liquidez (ratio 10.0); liquidez media ($25845); mucha actividad en 1h (1032 txns); edad del par sana (141.6 h)"
+    },
+    {
+      "id": 6,
+      "simbolo": "WASTED",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T05:42:44+00:00",
+      "cierre": "2026-11-25T05:44:24+00:00",
+      "entrada": 0.0011346449999999999,
+      "salida": 0.001112,
+      "tamano_usd": 1.41,
+      "pnl_usd": -0.0365,
+      "pnl_pct": -2.59,
+      "saldo_despues": 138.4751,
+      "motivo_cierre": "fin-de-sesion",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 10,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 10/10, red neuronal -1.0/10, subiendo con calma en 1h (+0%); volumen 24h >= liquidez (ratio 5.5); liquidez alta ($102808); mucha actividad en 1h (502 txns); edad del par sana (611.6 h)"
+    },
+    {
+      "id": 5,
+      "simbolo": "YUMA",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T04:40:26+00:00",
+      "cierre": "2026-11-25T04:40:29+00:00",
+      "entrada": 0.00010210799999999999,
+      "salida": 0.0001016,
+      "tamano_usd": 1.39,
+      "pnl_usd": -0.0153,
+      "pnl_pct": -1.1,
+      "saldo_despues": 140.58,
+      "motivo_cierre": "fin-de-sesion",
+      "estrategia": null,
+      "regimen": null,
+      "puntaje": null,
+      "motivo": "fin-de-sesion"
+    },
+    {
+      "id": 4,
+      "simbolo": "CHUDJAK",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T04:38:19+00:00",
+      "cierre": "2026-11-25T04:40:28+00:00",
+      "entrada": 2.280345e-05,
+      "salida": 2.153e-05,
+      "tamano_usd": 1.41,
+      "pnl_usd": -0.0869,
+      "pnl_pct": -6.17,
+      "saldo_despues": 139.2,
+      "motivo_cierre": "fin-de-sesion",
+      "estrategia": null,
+      "regimen": null,
+      "puntaje": null,
+      "motivo": "fin-de-sesion"
+    },
+    {
+      "id": 3,
+      "simbolo": "TROLL",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T04:39:02+00:00",
+      "cierre": "2026-11-25T04:39:46+00:00",
+      "entrada": 5.9485949999999996e-05,
+      "salida": 3.079e-05,
+      "tamano_usd": 1.38,
+      "pnl_usd": -0.672,
+      "pnl_pct": -48.69,
+      "saldo_despues": 139.26,
+      "motivo_cierre": "stop-loss",
+      "estrategia": null,
+      "regimen": null,
+      "puntaje": null,
+      "motivo": "stop-loss"
+    },
+    {
+      "id": 2,
+      "simbolo": "YUMA",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T04:38:19+00:00",
+      "cierre": "2026-11-25T04:39:46+00:00",
+      "entrada": 0.00017215649999999998,
+      "salida": 0.0002028,
+      "tamano_usd": 1.4,
+      "pnl_usd": 0.24,
+      "pnl_pct": 17.15,
+      "saldo_despues": 138.55,
+      "motivo_cierre": "take-profit",
+      "estrategia": null,
+      "regimen": null,
+      "puntaje": null,
+      "motivo": "take-profit"
+    },
+    {
+      "id": 1,
+      "simbolo": "TROLL",
+      "cadena": "solana",
+      "dex": "pumpswap",
+      "apertura": "2026-11-25T04:38:19+00:00",
+      "cierre": "2026-11-25T04:38:21+00:00",
+      "entrada": 8.424915e-05,
+      "salida": 7.232e-05,
+      "tamano_usd": 1.38,
+      "pnl_usd": -0.2031,
+      "pnl_pct": -14.71,
+      "saldo_despues": 138.29,
+      "motivo_cierre": "stop-loss",
+      "estrategia": null,
+      "regimen": null,
+      "puntaje": null,
+      "motivo": "stop-loss"
+    }
+  ],
+  "posiciones_abiertas": [],
+  "contadores": {
+    "operaciones": 12,
+    "ganadas": 3,
+    "perdidas": 9,
+    "empatadas": 0,
+    "descartadas": 57,
+    "ejecutadas": 7,
+    "en_seguimiento": 0,
+    "retenidas": 0,
+    "decisiones_totales": 68,
+    "eventos": 40,
+    "precios_observados": 234,
+    "reglas_aprendidas": 0
+  },
+  "decisiones_por_tipo": {
+    "CLOSE": 4,
+    "OPEN": 7,
+    "REJECT": 57
+  },
+  "decisiones_recientes": [
+    {
+      "hora": "2026-11-25T05:59:07+00:00",
+      "decision": "OPEN",
+      "simbolo": "HOGE",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+0%); volumen 24h >= liquidez (ratio 1.8); liquidez alta ($106535); actividad media en 1h (57 txns); edad del par sana (239.0 h)"
+    },
+    {
+      "hora": "2026-11-25T05:58:47+00:00",
+      "decision": "CLOSE",
+      "simbolo": "Memeployed",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "stop-loss, PnL $-0.1573"
+    },
+    {
+      "hora": "2026-11-25T05:44:57+00:00",
+      "decision": "OPEN",
+      "simbolo": "Memeployed",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+23%); volumen 24h >= liquidez (ratio 36.2); liquidez media ($25920); mucha actividad en 1h (336 txns); edad del par sana (16.0 h)"
+    },
+    {
+      "hora": "2026-11-25T05:44:56+00:00",
+      "decision": "OPEN",
+      "simbolo": "jingyu",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+13%); volumen 24h >= liquidez (ratio 9.9); liquidez media ($25808); mucha actividad en 1h (1051 txns); edad del par sana (141.6 h)"
+    },
+    {
+      "hora": "2026-11-25T05:44:56+00:00",
+      "decision": "OPEN",
+      "simbolo": "WASTED",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 10,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 10/10, red neuronal -1.0/10, subiendo con calma en 1h (+1%); volumen 24h >= liquidez (ratio 5.5); liquidez alta ($102627); mucha actividad en 1h (504 txns); edad del par sana (611.6 h)"
+    },
+    {
+      "hora": "2026-11-25T05:44:26+00:00",
+      "decision": "CLOSE",
+      "simbolo": "Memeployed",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "fin-de-sesion, PnL $+0.0245"
+    },
+    {
+      "hora": "2026-11-25T05:44:26+00:00",
+      "decision": "CLOSE",
+      "simbolo": "jingyu",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "fin-de-sesion, PnL $-0.0193"
+    },
+    {
+      "hora": "2026-11-25T05:44:26+00:00",
+      "decision": "CLOSE",
+      "simbolo": "WASTED",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 10,
+      "motivo": "fin-de-sesion, PnL $-0.0365"
+    },
+    {
+      "hora": "2026-11-25T05:42:44+00:00",
+      "decision": "OPEN",
+      "simbolo": "Memeployed",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+23%); volumen 24h >= liquidez (ratio 36.3); liquidez media ($25874); mucha actividad en 1h (335 txns); edad del par sana (15.9 h)"
+    },
+    {
+      "hora": "2026-11-25T05:42:44+00:00",
+      "decision": "OPEN",
+      "simbolo": "jingyu",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+14%); volumen 24h >= liquidez (ratio 10.0); liquidez media ($25845); mucha actividad en 1h (1032 txns); edad del par sana (141.6 h)"
+    },
+    {
+      "hora": "2026-11-25T05:42:44+00:00",
+      "decision": "OPEN",
+      "simbolo": "WASTED",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 10,
+      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 10/10, red neuronal -1.0/10, subiendo con calma en 1h (+0%); volumen 24h >= liquidez (ratio 5.5); liquidez alta ($102808); mucha actividad en 1h (502 txns); edad del par sana (611.6 h)"
+    },
+    {
+      "hora": "2026-11-25T05:27:15+00:00",
+      "decision": "REJECT",
+      "simbolo": "FUCKCANCER",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 3,
+      "motivo": "MERCADO-01 (25): puntaje del token >= 7/10"
+    },
+    {
+      "hora": "2026-11-25T05:27:15+00:00",
+      "decision": "REJECT",
+      "simbolo": "BASKET",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 4,
+      "motivo": "MERCADO-01 (25): puntaje del token >= 7/10"
+    },
+    {
+      "hora": "2026-11-25T05:27:15+00:00",
+      "decision": "REJECT",
+      "simbolo": "YUMA",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 6,
+      "motivo": "MERCADO-01 (25): puntaje del token >= 7/10"
+    },
+    {
+      "hora": "2026-11-25T05:26:06+00:00",
+      "decision": "REJECT",
+      "simbolo": "FUCKCANCER",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 3,
+      "motivo": "MERCADO-01 (25): puntaje del token >= 7/10"
+    }
+  ],
+  "eventos_recientes": [
+    {
+      "hora": "2026-11-25T06:22:05+00:00",
+      "agente": "run_bot",
+      "accion": "SESSION_START",
+      "simbolo": null,
+      "motivo": "sesión 94e5153d, estrategia trend_rsi, régimen bajista"
+    },
+    {
+      "hora": "2026-11-25T06:16:08+00:00",
+      "agente": "run_bot",
+      "accion": "SESSION_END",
+      "simbolo": null,
+      "motivo": "cierre manual tras caída en close_all (IncompleteRead, ya corregido): sesión FASE 2 d6553ed7, 4 operaciones"
+    },
+    {
+      "hora": "2026-11-25T06:16:08+00:00",
+      "agente": "executor",
+      "accion": "CLOSE",
+      "simbolo": "HOGE",
+      "motivo": "fin-de-sesion"
+    },
+    {
+      "hora": "2026-11-25T06:16:00+00:00",
+      "agente": "executor",
+      "accion": "CLOSE",
+      "simbolo": "jingyu",
+      "motivo": "fin-de-sesion"
+    },
+    {
+      "hora": "2026-11-25T06:15:52+00:00",
+      "agente": "executor",
+      "accion": "CLOSE",
+      "simbolo": "WASTED",
+      "motivo": "fin-de-sesion"
+    },
+    {
+      "hora": "2026-11-25T05:59:07+00:00",
+      "agente": "executor",
+      "accion": "OPEN",
+      "simbolo": "HOGE",
+      "motivo": "entrada simulada (slippage +0.5%, comisión 0.3%)"
+    },
+    {
+      "hora": "2026-11-25T05:58:47+00:00",
+      "agente": "executor",
+      "accion": "CLOSE",
+      "simbolo": "Memeployed",
+      "motivo": "stop-loss"
+    },
+    {
+      "hora": "2026-11-25T05:44:57+00:00",
+      "agente": "executor",
+      "accion": "OPEN",
+      "simbolo": "Memeployed",
+      "motivo": "entrada simulada (slippage +0.5%, comisión 0.3%)"
+    },
+    {
+      "hora": "2026-11-25T05:44:56+00:00",
+      "agente": "executor",
+      "accion": "OPEN",
+      "simbolo": "jingyu",
+      "motivo": "entrada simulada (slippage +0.5%, comisión 0.3%)"
+    },
+    {
+      "hora": "2026-11-25T05:44:56+00:00",
+      "agente": "executor",
+      "accion": "OPEN",
+      "simbolo": "WASTED",
+      "motivo": "entrada simulada (slippage +0.5%, comisión 0.3%)"
+    },
+    {
+      "hora": "2026-11-25T05:44:34+00:00",
+      "agente": "run_bot",
+      "accion": "SESSION_START",
+      "simbolo": null,
+      "motivo": "sesión d6553ed7, estrategia trend_rsi, régimen bajista"
+    },
+    {
+      "hora": "2026-11-25T05:44:26+00:00",
+      "agente": "run_bot",
+      "accion": "SESSION_END",
+      "simbolo": null,
+      "motivo": "3 operaciones, 3 cerradas"
+    },
+    {
+      "hora": "2026-11-25T05:44:26+00:00",
+      "agente": "executor",
+      "accion": "CLOSE",
+      "simbolo": "Memeployed",
+      "motivo": "fin-de-sesion"
+    },
+    {
+      "hora": "2026-11-25T05:44:25+00:00",
+      "agente": "executor",
+      "accion": "CLOSE",
+      "simbolo": "jingyu",
+      "motivo": "fin-de-sesion"
+    },
+    {
+      "hora": "2026-11-25T05:44:24+00:00",
+      "agente": "executor",
+      "accion": "CLOSE",
+      "simbolo": "WASTED",
+      "motivo": "fin-de-sesion"
+    }
+  ],
+  "backtest": {
+    "strategy": "trend_rsi",
+    "days": 90,
+    "trades": 13,
+    "wins": 7,
+    "losses": 6,
+    "win_rate_pct": 53.8,
+    "total_pnl_usd": 0.033,
+    "initial_balance": 141.3,
+    "final_balance": 141.33,
+    "max_losing_streak": 2,
+    "profit_factor": 1.18,
+    "expectancy_usd": 0.0025,
+    "avg_win_usd": 0.0316,
+    "avg_loss_usd": 0.0314,
+    "rr_achieved": 1.01,
+    "max_drawdown_usd": 0.08,
+    "max_drawdown_pct": 0.06,
+    "verdict": "RENTABLE (en este backtest)",
+    "per_coin": {
+      "bitcoin": {
+        "trades": 6,
+        "wins": 3,
+        "pnl_usd": -0.0161
+      },
+      "ethereum": {
+        "trades": 3,
+        "wins": 2,
+        "pnl_usd": 0.0661
+      },
+      "solana": {
+        "trades": 4,
+        "wins": 2,
+        "pnl_usd": -0.017
+      }
+    }
+  },
+  "ultima_operacion_cierre": "2026-11-25T06:16:07+00:00",
+  "ultima_actualizacion": "2026-11-25T06:24:49.362865+00:00"
+}
