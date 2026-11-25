@@ -240,38 +240,101 @@
     "ganadas": 3,
     "perdidas": 9,
     "empatadas": 0,
-    "descartadas": 59,
+    "descartadas": 61,
     "ejecutadas": 7,
-    "en_seguimiento": 3,
-    "retenidas": 3,
-    "decisiones_totales": 98,
-    "eventos": 40,
+    "en_seguimiento": 6,
+    "retenidas": 6,
+    "decisiones_totales": 118,
+    "eventos": 41,
     "precios_observados": 234,
     "reglas_aprendidas": 0
   },
   "decisiones_por_tipo": {
-    "AGENT_FLUJO": 5,
-    "AGENT_HOLDERS": 5,
-    "AGENT_RIESGO": 5,
-    "AGENT_SENTIMIENTO": 5,
-    "AGENT_VOLATILIDAD": 5,
+    "AGENT_FLUJO": 8,
+    "AGENT_HOLDERS": 8,
+    "AGENT_RIESGO": 8,
+    "AGENT_SENTIMIENTO": 8,
+    "AGENT_VOLATILIDAD": 8,
     "CLOSE": 4,
-    "HELD": 3,
+    "HELD": 6,
     "OPEN": 7,
-    "REJECT": 59
+    "REJECT": 61
   },
   "decisiones_recientes": [
     {
-      "hora": "2026-11-25T06:29:34+00:00",
+      "hora": "2026-11-25T06:53:13+00:00",
       "decision": "REJECT",
+      "simbolo": "Memeployed",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 0,
+      "motivo": "reglas rotas: MERCADO-01; puntaje por reglas 0 < 6 (no abre ni con red)"
+    },
+    {
+      "hora": "2026-11-25T06:53:13+00:00",
+      "decision": "HELD",
+      "simbolo": "ROCKET",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 7,
+      "motivo": "confianza 0.740 < puerta 0.85; confianza 0.740 < puerta 0.85: retenida para revisión humana"
+    },
+    {
+      "hora": "2026-11-25T06:53:13+00:00",
+      "decision": "AGENT_RIESGO",
+      "simbolo": "ROCKET",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 10,
+      "motivo": "riesgo bajo control (saldo $141.30)"
+    },
+    {
+      "hora": "2026-11-25T06:53:13+00:00",
+      "decision": "AGENT_SENTIMIENTO",
+      "simbolo": "ROCKET",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 5,
+      "motivo": "miedo extremo en el mercado (13); token impulsado en DexScreener (atención)"
+    },
+    {
+      "hora": "2026-11-25T06:53:13+00:00",
+      "decision": "AGENT_FLUJO",
+      "simbolo": "ROCKET",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 9,
+      "motivo": "volumen alto en 1h (1.6x); volumen creciendo en 6h; compras y ventas parejas (53%)"
+    },
+    {
+      "hora": "2026-11-25T06:53:13+00:00",
+      "decision": "AGENT_HOLDERS",
+      "simbolo": "ROCKET",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 7,
+      "motivo": "RugCheck: holders medios (top10 22.7%); mint renunciado; freeze renunciado"
+    },
+    {
+      "hora": "2026-11-25T06:53:13+00:00",
+      "decision": "AGENT_VOLATILIDAD",
+      "simbolo": "ROCKET",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 7,
+      "motivo": "respirando en 1h (-1.6%), 6h 12%"
+    },
+    {
+      "hora": "2026-11-25T06:53:12+00:00",
+      "decision": "HELD",
       "simbolo": "CBUCKS",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
-      "puntaje": 6,
-      "motivo": "reglas rotas: MERCADO-01"
+      "puntaje": 7,
+      "motivo": "confianza 0.710 < puerta 0.85; confianza 0.710 < puerta 0.85: retenida para revisión humana"
     },
     {
-      "hora": "2026-11-25T06:29:34+00:00",
+      "hora": "2026-11-25T06:53:12+00:00",
       "decision": "AGENT_RIESGO",
       "simbolo": "CBUCKS",
       "estrategia": "trend_rsi",
@@ -280,7 +343,7 @@
       "motivo": "riesgo bajo control (saldo $141.30)"
     },
     {
-      "hora": "2026-11-25T06:29:34+00:00",
+      "hora": "2026-11-25T06:53:12+00:00",
       "decision": "AGENT_SENTIMIENTO",
       "simbolo": "CBUCKS",
       "estrategia": "trend_rsi",
@@ -289,16 +352,16 @@
       "motivo": "miedo extremo en el mercado (13); token impulsado en DexScreener (atención)"
     },
     {
-      "hora": "2026-11-25T06:29:33+00:00",
+      "hora": "2026-11-25T06:53:12+00:00",
       "decision": "AGENT_FLUJO",
       "simbolo": "CBUCKS",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
       "puntaje": 10,
-      "motivo": "volumen alto en 1h (2.6x); volumen creciendo en 6h; más compras que ventas (58%)"
+      "motivo": "volumen alto en 1h (1.6x); volumen creciendo en 6h; más compras que ventas (60%)"
     },
     {
-      "hora": "2026-11-25T06:29:33+00:00",
+      "hora": "2026-11-25T06:53:12+00:00",
       "decision": "AGENT_HOLDERS",
       "simbolo": "CBUCKS",
       "estrategia": "trend_rsi",
@@ -307,97 +370,41 @@
       "motivo": "RugCheck: holders concentrados (top10 36.6%); mint renunciado; freeze renunciado"
     },
     {
-      "hora": "2026-11-25T06:29:33+00:00",
+      "hora": "2026-11-25T06:53:11+00:00",
       "decision": "AGENT_VOLATILIDAD",
       "simbolo": "CBUCKS",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
-      "puntaje": 3,
-      "motivo": "cayendo en 1h (-13%): se espera"
+      "puntaje": 7,
+      "motivo": "respirando en 1h (-3.8%), 6h 11%"
     },
     {
-      "hora": "2026-11-25T06:29:33+00:00",
+      "hora": "2026-11-25T06:53:03+00:00",
       "decision": "REJECT",
-      "simbolo": "SIMPS",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 6,
-      "motivo": "reglas rotas: MERCADO-01"
-    },
-    {
-      "hora": "2026-11-25T06:29:33+00:00",
-      "decision": "AGENT_RIESGO",
-      "simbolo": "SIMPS",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 10,
-      "motivo": "riesgo bajo control (saldo $141.30)"
-    },
-    {
-      "hora": "2026-11-25T06:29:33+00:00",
-      "decision": "AGENT_SENTIMIENTO",
-      "simbolo": "SIMPS",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 5,
-      "motivo": "miedo extremo en el mercado (13); token impulsado en DexScreener (atención)"
-    },
-    {
-      "hora": "2026-11-25T06:29:33+00:00",
-      "decision": "AGENT_FLUJO",
-      "simbolo": "SIMPS",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 6,
-      "motivo": "compras y ventas parejas (52%)"
-    },
-    {
-      "hora": "2026-11-25T06:29:33+00:00",
-      "decision": "AGENT_HOLDERS",
-      "simbolo": "SIMPS",
+      "simbolo": "Christmax",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
       "puntaje": 7,
-      "motivo": "RugCheck: holders medios (top10 23.7%); mint renunciado; freeze renunciado"
+      "motivo": "reglas rotas: MERCADO-02; rug check no aprueba; rug check: compras/ventas desequilibradas en 1h (20 vs 1170, ratio 58.5)"
     },
     {
-      "hora": "2026-11-25T06:29:33+00:00",
-      "decision": "AGENT_VOLATILIDAD",
-      "simbolo": "SIMPS",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 8,
-      "motivo": "movimiento sano: +2.7% en 1h"
-    },
-    {
-      "hora": "2026-11-25T06:29:32+00:00",
+      "hora": "2026-11-25T06:46:36+00:00",
       "decision": "HELD",
-      "simbolo": "ROCKET",
+      "simbolo": "BASKET",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
-      "puntaje": 8,
-      "motivo": "confianza 0.770 < puerta 0.85; confianza 0.770 < puerta 0.85: retenida para revisión humana"
-    },
-    {
-      "hora": "2026-11-25T06:29:32+00:00",
-      "decision": "AGENT_RIESGO",
-      "simbolo": "ROCKET",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 10,
-      "motivo": "riesgo bajo control (saldo $141.30)"
-    },
-    {
-      "hora": "2026-11-25T06:29:32+00:00",
-      "decision": "AGENT_SENTIMIENTO",
-      "simbolo": "ROCKET",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 5,
-      "motivo": "miedo extremo en el mercado (13); token impulsado en DexScreener (atención)"
+      "puntaje": 7,
+      "motivo": "confianza 0.790 < puerta 0.85; confianza 0.790 < puerta 0.85: retenida para revisión humana"
     }
   ],
   "eventos_recientes": [
+    {
+      "hora": "2026-11-25T06:53:13+00:00",
+      "agente": "run_bot",
+      "accion": "SESSION_END",
+      "simbolo": null,
+      "motivo": "0 operaciones, 0 cerradas"
+    },
     {
       "hora": "2026-11-25T06:22:05+00:00",
       "agente": "run_bot",
@@ -495,67 +502,87 @@
       "accion": "CLOSE",
       "simbolo": "jingyu",
       "motivo": "fin-de-sesion"
-    },
-    {
-      "hora": "2026-11-25T05:44:24+00:00",
-      "agente": "executor",
-      "accion": "CLOSE",
-      "simbolo": "WASTED",
-      "motivo": "fin-de-sesion"
     }
   ],
   "backtest": {
     "strategy": "trend_rsi",
     "days": 90,
     "trades": 13,
-    "wins": 7,
-    "losses": 6,
-    "win_rate_pct": 53.8,
-    "total_pnl_usd": 0.033,
+    "wins": 8,
+    "losses": 5,
+    "win_rate_pct": 61.5,
+    "total_pnl_usd": -0.0641,
     "initial_balance": 141.3,
-    "final_balance": 141.33,
+    "final_balance": 141.24,
     "max_losing_streak": 2,
-    "profit_factor": 1.18,
-    "expectancy_usd": 0.0025,
-    "avg_win_usd": 0.0316,
-    "avg_loss_usd": 0.0314,
-    "rr_achieved": 1.01,
-    "max_drawdown_usd": 0.08,
+    "profit_factor": 0.49,
+    "expectancy_usd": -0.0049,
+    "avg_win_usd": 0.0076,
+    "avg_loss_usd": 0.025,
+    "rr_achieved": 0.3,
+    "max_drawdown_usd": 0.09,
     "max_drawdown_pct": 0.06,
-    "verdict": "RENTABLE (en este backtest)",
+    "costs_applied": true,
+    "comision_usd": 0.0163,
+    "slippage_usd": 0.0127,
+    "costes_totales_usd": 0.029,
+    "twap_enabled": true,
+    "twap_ahorro_usd": 0.0086,
+    "meta_60_win_rate": true,
+    "meta_60_avg_win_mayor": false,
+    "meta_60_cumplida": false,
+    "esperanza_check": {
+      "ganancia_esperada": 0.0047,
+      "perdida_esperada": 0.0096
+    },
+    "verdict": "NO RENTABLE (en este backtest)",
     "per_coin": {
       "bitcoin": {
         "trades": 6,
-        "wins": 3,
-        "pnl_usd": -0.0161
+        "wins": 4,
+        "pnl_usd": -0.0383
       },
       "ethereum": {
         "trades": 3,
         "wins": 2,
-        "pnl_usd": 0.0661
+        "pnl_usd": 0.0176
       },
       "solana": {
         "trades": 4,
         "wins": 2,
-        "pnl_usd": -0.017
+        "pnl_usd": -0.0435
       }
     }
   },
   "ultima_operacion_cierre": "2026-11-25T06:16:07+00:00",
-  "ultima_actualizacion": "2026-11-25T06:44:21.955304+00:00",
+  "ultima_actualizacion": "2026-11-25T07:14:23.384551+00:00",
   "triaje": {
     "puerta": 0.85,
     "carriles": {
-      "ignorar": 2,
-      "vigilar": 3,
+      "ignorar": 4,
+      "vigilar": 6,
       "operar": 0
     },
-    "confianza_promedio": 0.704,
+    "confianza_promedio": 0.72,
     "confianza_por_carril": {
       "ignorar": 0.635,
-      "vigilar": 0.75
+      "vigilar": 0.748
     },
     "retenidas": [
+      {
+        "simbolo": "BASKET",
+        "confianza": 0.79,
+        "ruta": "vigilar",
+        "puntaje_regla": 7,
+        "vol": 5.0,
+        "holders": 10.0,
+        "flujo": 10.0,
+        "sent": 4.0,
+        "agente": 7.9,
+        "latencia_ms": 2219.1,
+        "hora": "2026-11-25T06:46:36+00:00",
+        "motivos": "confianza 0.790 < puerta 0.85: retenida para revisión humana"
+      },
       {
         "simbolo": "ROCKET",
         "confianza": 0.77,
@@ -583,6 +610,34 @@
         "latencia_ms": 1873.1,
         "hora": "2026-11-25T06:24:52+00:00",
         "motivos": "confianza 0.770 < puerta 0.85: retenida para revisión humana"
+      },
+      {
+        "simbolo": "ROCKET",
+        "confianza": 0.74,
+        "ruta": "vigilar",
+        "puntaje_regla": 7,
+        "vol": 7.0,
+        "holders": 7.0,
+        "flujo": 9.0,
+        "sent": 5.0,
+        "agente": 7.4,
+        "latencia_ms": 1052.9,
+        "hora": "2026-11-25T06:53:13+00:00",
+        "motivos": "confianza 0.740 < puerta 0.85: retenida para revisión humana"
+      },
+      {
+        "simbolo": "CBUCKS",
+        "confianza": 0.71,
+        "ruta": "vigilar",
+        "puntaje_regla": 7,
+        "vol": 7.0,
+        "holders": 5.0,
+        "flujo": 10.0,
+        "sent": 5.0,
+        "agente": 7.1,
+        "latencia_ms": 8285.4,
+        "hora": "2026-11-25T06:53:12+00:00",
+        "motivos": "confianza 0.710 < puerta 0.85: retenida para revisión humana"
       },
       {
         "simbolo": "CBUCKS",
@@ -628,9 +683,9 @@
       }
     ],
     "latencia": {
-      "n": 5,
-      "promedio_ms": 1144.9,
-      "max_ms": 1873.1,
+      "n": 10,
+      "promedio_ms": 1728.2,
+      "max_ms": 8285.4,
       "costo_total_usd": 0.0,
       "serie": [
         {
@@ -652,30 +707,50 @@
         {
           "hora": "2026-11-25T06:29:34+00:00",
           "latencia_ms": 251.1
+        },
+        {
+          "hora": "2026-11-25T06:46:36+00:00",
+          "latencia_ms": 2219.1
+        },
+        {
+          "hora": "2026-11-25T06:53:03+00:00",
+          "latencia_ms": 0.1
+        },
+        {
+          "hora": "2026-11-25T06:53:12+00:00",
+          "latencia_ms": 8285.4
+        },
+        {
+          "hora": "2026-11-25T06:53:13+00:00",
+          "latencia_ms": 0.1
+        },
+        {
+          "hora": "2026-11-25T06:53:13+00:00",
+          "latencia_ms": 1052.9
         }
       ]
     },
     "ultima_senal": {
-      "simbolo": "CBUCKS",
+      "simbolo": "Memeployed",
       "ruta": "ignorar",
-      "confianza": 0.59,
-      "puntaje_regla": 6,
-      "agente_score": 5.9,
-      "vol": 3.0,
-      "holders": 5.0,
-      "flujo": 10.0,
-      "sent": 5.0,
-      "hora": "2026-11-25T06:29:34+00:00"
+      "confianza": null,
+      "puntaje_regla": 0,
+      "agente_score": null,
+      "vol": null,
+      "holders": null,
+      "flujo": null,
+      "sent": null,
+      "hora": "2026-11-25T06:53:13+00:00"
     }
   },
   "agentes": {
     "scanner": {
-      "evaluadas": 98,
-      "simbolos": 11,
-      "ultima_sesion": 30
+      "evaluadas": 118,
+      "simbolos": 12,
+      "ultima_sesion": 50
     },
     "rug_check": {
-      "filtrados": 59
+      "filtrados": 61
     },
     "sizer": {
       "tamano_tipico_usd": 1.39,
@@ -688,7 +763,7 @@
       "abiertas": 0
     },
     "logger": {
-      "registros": 384
+      "registros": 405
     },
     "equity": {
       "saldo": 141.0481,
@@ -698,34 +773,34 @@
       "acierto_pct": 25.0
     },
     "volatilidad": {
-      "ultimo_puntaje": 3,
-      "simbolo": "CBUCKS",
-      "motivo": "cayendo en 1h (-13%): se espera",
-      "hora": "2026-11-25T06:29:33+00:00"
+      "ultimo_puntaje": 7,
+      "simbolo": "ROCKET",
+      "motivo": "respirando en 1h (-1.6%), 6h 12%",
+      "hora": "2026-11-25T06:53:13+00:00"
     },
     "holders": {
-      "ultimo_puntaje": 5,
-      "simbolo": "CBUCKS",
-      "motivo": "RugCheck: holders concentrados (top10 36.6%); mint renunciado; freeze renunciado",
-      "hora": "2026-11-25T06:29:33+00:00"
+      "ultimo_puntaje": 7,
+      "simbolo": "ROCKET",
+      "motivo": "RugCheck: holders medios (top10 22.7%); mint renunciado; freeze renunciado",
+      "hora": "2026-11-25T06:53:13+00:00"
     },
     "flujo": {
-      "ultimo_puntaje": 10,
-      "simbolo": "CBUCKS",
-      "motivo": "volumen alto en 1h (2.6x); volumen creciendo en 6h; más compras que ventas (58%)",
-      "hora": "2026-11-25T06:29:33+00:00"
+      "ultimo_puntaje": 9,
+      "simbolo": "ROCKET",
+      "motivo": "volumen alto en 1h (1.6x); volumen creciendo en 6h; compras y ventas parejas (53%)",
+      "hora": "2026-11-25T06:53:13+00:00"
     },
     "sentimiento": {
       "ultimo_puntaje": 5,
-      "simbolo": "CBUCKS",
+      "simbolo": "ROCKET",
       "motivo": "miedo extremo en el mercado (13); token impulsado en DexScreener (atención)",
-      "hora": "2026-11-25T06:29:34+00:00"
+      "hora": "2026-11-25T06:53:13+00:00"
     },
     "riesgo": {
       "ultimo_puntaje": 10,
-      "simbolo": "CBUCKS",
+      "simbolo": "ROCKET",
       "motivo": "riesgo bajo control (saldo $141.30)",
-      "hora": "2026-11-25T06:29:34+00:00"
+      "hora": "2026-11-25T06:53:13+00:00"
     },
     "ultimo_puntaje_aprobado": {
       "simbolo": "HOGE",
@@ -738,7 +813,7 @@
     "estrategia": "trend_rsi",
     "regimen": "bajista",
     "inicio": "2026-11-25T06:22:05+00:00",
-    "estado": "activa"
+    "estado": "cerrada"
   },
   "aprendizaje": {
     "ultimo_ciclo": null,
@@ -756,59 +831,59 @@
       "coin": "bitcoin",
       "opened_at": "2026-09-12T06:00:00+00:00",
       "closed_at": "2026-09-12T12:00:00+00:00",
-      "entry_price": "77590.051989",
-      "exit_price": "77340.173708",
-      "size_usd": "1.41",
-      "pnl_usd": "-0.013",
-      "pnl_pct": "-0.92",
-      "balance_after": "141.29",
+      "entry_price": "77204.031829",
+      "exit_price": "77243.498491",
+      "size_usd": "0.28",
+      "pnl_usd": "-0.0004",
+      "pnl_pct": "-0.15",
+      "balance_after": "141.3",
       "close_reason": "senal-venta"
     },
     {
       "coin": "bitcoin",
       "opened_at": "2026-10-01T04:00:00+00:00",
       "closed_at": "2026-10-01T22:00:00+00:00",
-      "entry_price": "84128.861356",
-      "exit_price": "84521.386782",
-      "size_usd": "1.41",
-      "pnl_usd": "-0.0019",
-      "pnl_pct": "-0.13",
-      "balance_after": "141.29",
+      "entry_price": "83710.309807",
+      "exit_price": "84415.735048",
+      "size_usd": "0.28",
+      "pnl_usd": "0.0018",
+      "pnl_pct": "0.64",
+      "balance_after": "141.3",
       "close_reason": "senal-venta"
     },
     {
       "coin": "bitcoin",
       "opened_at": "2026-10-19T21:00:00+00:00",
       "closed_at": "2026-10-20T15:00:00+00:00",
-      "entry_price": "82359.886532",
-      "exit_price": "83215.80419",
-      "size_usd": "1.41",
-      "pnl_usd": "0.0061",
-      "pnl_pct": "0.44",
-      "balance_after": "141.29",
+      "entry_price": "81950.135853",
+      "exit_price": "83111.784434",
+      "size_usd": "0.28",
+      "pnl_usd": "0.0034",
+      "pnl_pct": "1.22",
+      "balance_after": "141.3",
       "close_reason": "senal-venta"
     },
     {
       "coin": "bitcoin",
       "opened_at": "2026-11-04T04:00:00+00:00",
       "closed_at": "2026-11-04T15:00:00+00:00",
-      "entry_price": "76792.526331",
-      "exit_price": "79225.859533",
-      "size_usd": "1.41",
-      "pnl_usd": "0.0361",
-      "pnl_pct": "2.56",
-      "balance_after": "141.33",
+      "entry_price": "76410.473961",
+      "exit_price": "79126.827209",
+      "size_usd": "0.28",
+      "pnl_usd": "0.0094",
+      "pnl_pct": "3.35",
+      "balance_after": "141.31",
       "close_reason": "senal-venta"
     },
     {
       "coin": "bitcoin",
       "opened_at": "2026-11-05T14:00:00+00:00",
       "closed_at": "2026-11-07T08:00:00+00:00",
-      "entry_price": "79997.711215",
-      "exit_price": "76028.044689",
-      "size_usd": "1.41",
-      "pnl_usd": "-0.0782",
-      "pnl_pct": "-5.55",
+      "entry_price": "79239.568753",
+      "exit_price": "75933.009634",
+      "size_usd": "1.4100000000000001",
+      "pnl_usd": "-0.0616",
+      "pnl_pct": "-4.37",
       "balance_after": "141.25",
       "close_reason": "senal-venta"
     },
@@ -816,96 +891,96 @@
       "coin": "bitcoin",
       "opened_at": "2026-11-22T07:00:00+00:00",
       "closed_at": "2026-11-22T17:00:00+00:00",
-      "entry_price": "59355.101927",
-      "exit_price": "61179.633364",
-      "size_usd": "1.41",
-      "pnl_usd": "0.0348",
-      "pnl_pct": "2.46",
-      "balance_after": "141.28",
+      "entry_price": "59059.802913",
+      "exit_price": "61103.158822",
+      "size_usd": "0.28",
+      "pnl_usd": "0.0091",
+      "pnl_pct": "3.26",
+      "balance_after": "141.26",
       "close_reason": "senal-venta"
     },
     {
       "coin": "ethereum",
       "opened_at": "2026-09-12T09:00:00+00:00",
       "closed_at": "2026-09-12T12:00:00+00:00",
-      "entry_price": "2545.594101",
-      "exit_price": "2535.471018",
-      "size_usd": "1.41",
-      "pnl_usd": "-0.0141",
-      "pnl_pct": "-1.0",
-      "balance_after": "141.27",
+      "entry_price": "2532.262294",
+      "exit_price": "2532.301679",
+      "size_usd": "1.4100000000000001",
+      "pnl_usd": "-0.0028",
+      "pnl_pct": "-0.2",
+      "balance_after": "141.26",
       "close_reason": "senal-venta"
     },
     {
       "coin": "ethereum",
       "opened_at": "2026-11-04T05:00:00+00:00",
       "closed_at": "2026-11-04T15:00:00+00:00",
-      "entry_price": "2289.188428",
-      "exit_price": "2375.393017",
-      "size_usd": "1.41",
-      "pnl_usd": "0.0445",
-      "pnl_pct": "3.15",
-      "balance_after": "141.31",
+      "entry_price": "2277.79943",
+      "exit_price": "2372.423775",
+      "size_usd": "0.28",
+      "pnl_usd": "0.0111",
+      "pnl_pct": "3.95",
+      "balance_after": "141.27",
       "close_reason": "senal-venta"
     },
     {
       "coin": "ethereum",
       "opened_at": "2026-11-22T07:00:00+00:00",
       "closed_at": "2026-11-22T17:00:00+00:00",
-      "entry_price": "1668.628564",
-      "exit_price": "1721.032339",
-      "size_usd": "1.41",
-      "pnl_usd": "0.0357",
-      "pnl_pct": "2.53",
-      "balance_after": "141.35",
+      "entry_price": "1660.326929",
+      "exit_price": "1718.881048",
+      "size_usd": "0.28",
+      "pnl_usd": "0.0093",
+      "pnl_pct": "3.32",
+      "balance_after": "141.28",
       "close_reason": "senal-venta"
     },
     {
       "coin": "solana",
       "opened_at": "2026-09-04T09:00:00+00:00",
       "closed_at": "2026-09-05T08:00:00+00:00",
-      "entry_price": "104.859667",
-      "exit_price": "102.225999",
-      "size_usd": "1.41",
-      "pnl_usd": "-0.0438",
-      "pnl_pct": "-3.1",
-      "balance_after": "141.31",
+      "entry_price": "104.267211",
+      "exit_price": "102.021547",
+      "size_usd": "1.4100000000000001",
+      "pnl_usd": "-0.0332",
+      "pnl_pct": "-2.35",
+      "balance_after": "141.25",
       "close_reason": "senal-venta"
     },
     {
       "coin": "solana",
       "opened_at": "2026-09-28T00:00:00+00:00",
       "closed_at": "2026-10-02T03:00:00+00:00",
-      "entry_price": "122.565307",
-      "exit_price": "120.038913",
-      "size_usd": "1.41",
-      "pnl_usd": "-0.0374",
-      "pnl_pct": "-2.66",
-      "balance_after": "141.27",
+      "entry_price": "121.888426",
+      "exit_price": "119.798835",
+      "size_usd": "1.4100000000000001",
+      "pnl_usd": "-0.027",
+      "pnl_pct": "-1.91",
+      "balance_after": "141.22",
       "close_reason": "senal-venta"
     },
     {
       "coin": "solana",
       "opened_at": "2026-10-19T20:00:00+00:00",
       "closed_at": "2026-10-20T15:00:00+00:00",
-      "entry_price": "104.422784",
-      "exit_price": "107.725114",
-      "size_usd": "1.41",
-      "pnl_usd": "0.036",
-      "pnl_pct": "2.55",
-      "balance_after": "141.3",
+      "entry_price": "103.903267",
+      "exit_price": "107.509664",
+      "size_usd": "0.28",
+      "pnl_usd": "0.0091",
+      "pnl_pct": "3.27",
+      "balance_after": "141.23",
       "close_reason": "senal-venta"
     },
     {
       "coin": "solana",
       "opened_at": "2026-11-22T09:00:00+00:00",
       "closed_at": "2026-11-23T08:00:00+00:00",
-      "entry_price": "70.135847",
-      "exit_price": "71.964535",
-      "size_usd": "1.41",
-      "pnl_usd": "0.0282",
-      "pnl_pct": "2.0",
-      "balance_after": "141.33",
+      "entry_price": "69.786913",
+      "exit_price": "71.820606",
+      "size_usd": "0.28",
+      "pnl_usd": "0.0076",
+      "pnl_pct": "2.71",
+      "balance_after": "141.24",
       "close_reason": "senal-venta"
     }
   ],
@@ -914,36 +989,49 @@
       "strategy": "trend_rsi",
       "days": 90,
       "trades": 13,
-      "wins": 7,
-      "losses": 6,
-      "win_rate_pct": 53.8,
-      "total_pnl_usd": 0.033,
+      "wins": 10,
+      "losses": 3,
+      "win_rate_pct": 76.9,
+      "total_pnl_usd": 0.2358,
       "initial_balance": 141.3,
-      "final_balance": 141.33,
+      "final_balance": 141.54,
       "max_losing_streak": 2,
-      "profit_factor": 1.18,
-      "expectancy_usd": 0.0025,
-      "avg_win_usd": 0.0316,
-      "avg_loss_usd": 0.0314,
-      "rr_achieved": 1.01,
-      "max_drawdown_usd": 0.08,
-      "max_drawdown_pct": 0.06,
+      "profit_factor": 3.07,
+      "expectancy_usd": 0.0181,
+      "avg_win_usd": 0.035,
+      "avg_loss_usd": 0.038,
+      "rr_achieved": 0.92,
+      "max_drawdown_usd": 0.06,
+      "max_drawdown_pct": 0.04,
+      "costs_applied": false,
+      "comision_usd": 0.0,
+      "slippage_usd": 0.0,
+      "costes_totales_usd": 0.0,
+      "twap_enabled": false,
+      "twap_ahorro_usd": 0.0,
+      "meta_60_win_rate": true,
+      "meta_60_avg_win_mayor": false,
+      "meta_60_cumplida": false,
+      "esperanza_check": {
+        "ganancia_esperada": 0.0269,
+        "perdida_esperada": 0.0088
+      },
       "verdict": "RENTABLE (en este backtest)",
       "per_coin": {
         "bitcoin": {
           "trades": 6,
-          "wins": 3,
-          "pnl_usd": -0.0161
+          "wins": 5,
+          "pnl_usd": 0.0773
         },
         "ethereum": {
           "trades": 3,
-          "wins": 2,
-          "pnl_usd": 0.0661
+          "wins": 3,
+          "pnl_usd": 0.1134
         },
         "solana": {
           "trades": 4,
           "wins": 2,
-          "pnl_usd": -0.017
+          "pnl_usd": 0.0452
         }
       }
     },
@@ -951,36 +1039,49 @@
       "strategy": "mean_reversion",
       "days": 90,
       "trades": 135,
-      "wins": 25,
-      "losses": 110,
-      "win_rate_pct": 18.5,
-      "total_pnl_usd": -2.6551,
+      "wins": 82,
+      "losses": 53,
+      "win_rate_pct": 60.7,
+      "total_pnl_usd": -0.582,
       "initial_balance": 141.3,
-      "final_balance": 138.64,
-      "max_losing_streak": 28,
-      "profit_factor": 0.08,
-      "expectancy_usd": -0.0197,
-      "avg_win_usd": 0.0089,
-      "avg_loss_usd": 0.0262,
-      "rr_achieved": 0.34,
-      "max_drawdown_usd": 2.66,
-      "max_drawdown_pct": 1.88,
+      "final_balance": 140.72,
+      "max_losing_streak": 5,
+      "profit_factor": 0.65,
+      "expectancy_usd": -0.0043,
+      "avg_win_usd": 0.0131,
+      "avg_loss_usd": 0.0312,
+      "rr_achieved": 0.42,
+      "max_drawdown_usd": 0.61,
+      "max_drawdown_pct": 0.43,
+      "costs_applied": false,
+      "comision_usd": 0.0,
+      "slippage_usd": 0.0,
+      "costes_totales_usd": 0.0,
+      "twap_enabled": false,
+      "twap_ahorro_usd": 0.0,
+      "meta_60_win_rate": true,
+      "meta_60_avg_win_mayor": false,
+      "meta_60_cumplida": false,
+      "esperanza_check": {
+        "ganancia_esperada": 0.0079,
+        "perdida_esperada": 0.0123
+      },
       "verdict": "NO RENTABLE (en este backtest)",
       "per_coin": {
         "bitcoin": {
           "trades": 43,
-          "wins": 3,
-          "pnl_usd": -0.9273
+          "wins": 25,
+          "pnl_usd": -0.266
         },
         "ethereum": {
           "trades": 47,
-          "wins": 11,
-          "pnl_usd": -0.7568
+          "wins": 32,
+          "pnl_usd": -0.036
         },
         "solana": {
           "trades": 45,
-          "wins": 11,
-          "pnl_usd": -0.9708
+          "wins": 25,
+          "pnl_usd": -0.2802
         }
       }
     },
@@ -988,36 +1089,49 @@
       "strategy": "momentum",
       "days": 90,
       "trades": 199,
-      "wins": 31,
-      "losses": 168,
-      "win_rate_pct": 15.6,
-      "total_pnl_usd": -3.0059,
+      "wins": 68,
+      "losses": 131,
+      "win_rate_pct": 34.2,
+      "total_pnl_usd": 0.0441,
       "initial_balance": 141.3,
-      "final_balance": 138.29,
-      "max_losing_streak": 17,
-      "profit_factor": 0.18,
-      "expectancy_usd": -0.0151,
-      "avg_win_usd": 0.0216,
-      "avg_loss_usd": 0.0219,
-      "rr_achieved": 0.99,
-      "max_drawdown_usd": 3.05,
-      "max_drawdown_pct": 2.16,
-      "verdict": "NO RENTABLE (en este backtest)",
+      "final_balance": 141.34,
+      "max_losing_streak": 9,
+      "profit_factor": 1.03,
+      "expectancy_usd": 0.0002,
+      "avg_win_usd": 0.0206,
+      "avg_loss_usd": 0.0104,
+      "rr_achieved": 1.99,
+      "max_drawdown_usd": 0.25,
+      "max_drawdown_pct": 0.18,
+      "costs_applied": false,
+      "comision_usd": 0.0,
+      "slippage_usd": 0.0,
+      "costes_totales_usd": 0.0,
+      "twap_enabled": false,
+      "twap_ahorro_usd": 0.0,
+      "meta_60_win_rate": false,
+      "meta_60_avg_win_mayor": true,
+      "meta_60_cumplida": false,
+      "esperanza_check": {
+        "ganancia_esperada": 0.007,
+        "perdida_esperada": 0.0068
+      },
+      "verdict": "RENTABLE (en este backtest)",
       "per_coin": {
         "bitcoin": {
           "trades": 75,
-          "wins": 8,
-          "pnl_usd": -1.2287
+          "wins": 23,
+          "pnl_usd": -0.0734
         },
         "ethereum": {
           "trades": 63,
-          "wins": 8,
-          "pnl_usd": -0.9522
+          "wins": 21,
+          "pnl_usd": 0.0124
         },
         "solana": {
           "trades": 61,
-          "wins": 15,
-          "pnl_usd": -0.8252
+          "wins": 24,
+          "pnl_usd": 0.1045
         }
       }
     },
@@ -1025,36 +1139,49 @@
       "strategy": "macd",
       "days": 90,
       "trades": 179,
-      "wins": 26,
-      "losses": 153,
-      "win_rate_pct": 14.5,
-      "total_pnl_usd": -3.426,
+      "wins": 54,
+      "losses": 125,
+      "win_rate_pct": 30.2,
+      "total_pnl_usd": -0.7003,
       "initial_balance": 141.3,
-      "final_balance": 137.87,
-      "max_losing_streak": 21,
-      "profit_factor": 0.16,
-      "expectancy_usd": -0.0191,
-      "avg_win_usd": 0.0244,
-      "avg_loss_usd": 0.0265,
-      "rr_achieved": 0.92,
-      "max_drawdown_usd": 3.43,
-      "max_drawdown_pct": 2.43,
+      "final_balance": 140.6,
+      "max_losing_streak": 12,
+      "profit_factor": 0.64,
+      "expectancy_usd": -0.0039,
+      "avg_win_usd": 0.0234,
+      "avg_loss_usd": 0.0157,
+      "rr_achieved": 1.49,
+      "max_drawdown_usd": 0.86,
+      "max_drawdown_pct": 0.61,
+      "costs_applied": false,
+      "comision_usd": 0.0,
+      "slippage_usd": 0.0,
+      "costes_totales_usd": 0.0,
+      "twap_enabled": false,
+      "twap_ahorro_usd": 0.0,
+      "meta_60_win_rate": false,
+      "meta_60_avg_win_mayor": true,
+      "meta_60_cumplida": false,
+      "esperanza_check": {
+        "ganancia_esperada": 0.0071,
+        "perdida_esperada": 0.011
+      },
       "verdict": "NO RENTABLE (en este backtest)",
       "per_coin": {
         "bitcoin": {
           "trades": 63,
-          "wins": 5,
-          "pnl_usd": -1.1757
+          "wins": 18,
+          "pnl_usd": -0.2064
         },
         "ethereum": {
           "trades": 56,
-          "wins": 9,
-          "pnl_usd": -1.1009
+          "wins": 19,
+          "pnl_usd": -0.2486
         },
         "solana": {
           "trades": 60,
-          "wins": 12,
-          "pnl_usd": -1.1492
+          "wins": 17,
+          "pnl_usd": -0.2453
         }
       }
     }
