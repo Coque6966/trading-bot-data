@@ -132,85 +132,94 @@
     "ganadas": 0,
     "perdidas": 4,
     "empatadas": 0,
-    "descartadas": 4010,
+    "descartadas": 4326,
     "ejecutadas": 4,
-    "en_seguimiento": 305,
-    "retenidas": 305,
-    "decisiones_totales": 19298,
+    "en_seguimiento": 334,
+    "retenidas": 334,
+    "decisiones_totales": 20864,
     "eventos": 107,
     "precios_observados": 66,
     "reglas_aprendidas": 5
   },
   "decisiones_por_tipo": {
-    "AGENT_FLUJO": 2500,
-    "AGENT_HOLDERS": 2500,
-    "AGENT_RIESGO": 2500,
-    "AGENT_SENTIMIENTO": 2500,
-    "AGENT_VOLATILIDAD": 2500,
+    "AGENT_FLUJO": 2704,
+    "AGENT_HOLDERS": 2704,
+    "AGENT_RIESGO": 2704,
+    "AGENT_SENTIMIENTO": 2704,
+    "AGENT_VOLATILIDAD": 2704,
     "CLOSE": 4,
-    "HELD": 305,
-    "HINT": 2471,
+    "HELD": 334,
+    "HINT": 2672,
     "OPEN": 4,
     "POSTMORTEM": 4,
-    "REJECT": 4010
+    "REJECT": 4326
   },
   "decisiones_recientes": [
     {
-      "hora": "2026-11-25T19:14:16+00:00",
+      "hora": "2026-11-25T19:43:47+00:00",
       "decision": "REJECT",
       "simbolo": "Pompom",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
       "puntaje": 0,
-      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $451784 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $54742 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real), FLUJO-01: compras 51% < 58% (mandan las ventas); puntaje por reglas 0 <"
+      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $418011 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $52858 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real), FLUJO-01: compras 53% < 58% (mandan las ventas); puntaje por reglas 0 <"
     },
     {
-      "hora": "2026-11-25T19:14:15+00:00",
-      "decision": "REJECT",
-      "simbolo": "MEDIC",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 0,
-      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $223908 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $33639 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real); top 10 holders concentrados (52.8% > 30%) (lección PROMOCION-SALIDA: to"
-    },
-    {
-      "hora": "2026-11-25T19:14:15+00:00",
-      "decision": "REJECT",
-      "simbolo": "Memeployed",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 5,
-      "motivo": "reglas rotas: MERCADO-01, MERCADO-02, MEME-01: valor $15631 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $10187 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real), FLUJO-01: compras 52% < 58% (mandan las ventas); rug check n"
-    },
-    {
-      "hora": "2026-11-25T19:14:15+00:00",
+      "hora": "2026-11-25T19:43:46+00:00",
       "decision": "REJECT",
       "simbolo": "JIMMY",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
-      "puntaje": 5,
-      "motivo": "reglas rotas: MERCADO-01; puntaje por reglas 5 < 6 (no abre ni con red)"
+      "puntaje": 4,
+      "motivo": "reglas rotas: MERCADO-01; puntaje por reglas 4 < 6 (no abre ni con red)"
     },
     {
-      "hora": "2026-11-25T19:14:15+00:00",
+      "hora": "2026-11-25T19:43:46+00:00",
+      "decision": "REJECT",
+      "simbolo": "Santa",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 5,
+      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $129908 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $20505 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real); puntaje por reglas 5 < 6 (no abre ni con red)"
+    },
+    {
+      "hora": "2026-11-25T19:43:46+00:00",
+      "decision": "REJECT",
+      "simbolo": "GRAVY",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 5,
+      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $39829 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $13171 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real); par demasiado joven (0.5 h < 3 h de historia mínima); top 10 holders con"
+    },
+    {
+      "hora": "2026-11-25T19:43:46+00:00",
+      "decision": "REJECT",
+      "simbolo": "AI",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 5,
+      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $172785 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $28496 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real); par demasiado joven (0.3 h < 3 h de historia mínima); top 10 holders co"
+    },
+    {
+      "hora": "2026-11-25T19:43:45+00:00",
       "decision": "REJECT",
       "simbolo": "PumpMas",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
       "puntaje": 6,
-      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $102573 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $23365 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real), FLUJO-01: compras 51% < 58% (mandan las ventas)"
+      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $103912 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $23644 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real)"
     },
     {
-      "hora": "2026-11-25T19:14:14+00:00",
+      "hora": "2026-11-25T19:43:45+00:00",
       "decision": "AGENT_RIESGO",
       "simbolo": "PumpMas",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
       "puntaje": 10,
-      "motivo": "riesgo bajo control (saldo $192.32); memoria: PumpMas: visto 69 veces antes; rechazado 10 veces; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $102573 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel si"
+      "motivo": "riesgo bajo control (saldo $192.32); memoria: PumpMas: visto 244 veces antes; rechazado 35 veces; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $103912 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel si"
     },
     {
-      "hora": "2026-11-25T19:14:14+00:00",
+      "hora": "2026-11-25T19:43:45+00:00",
       "decision": "AGENT_SENTIMIENTO",
       "simbolo": "PumpMas",
       "estrategia": "trend_rsi",
@@ -219,16 +228,16 @@
       "motivo": "miedo extremo en el mercado (13); token impulsado en DexScreener (atención)"
     },
     {
-      "hora": "2026-11-25T19:14:14+00:00",
+      "hora": "2026-11-25T19:43:45+00:00",
       "decision": "AGENT_FLUJO",
       "simbolo": "PumpMas",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
-      "puntaje": 7,
-      "motivo": "volumen normal en 1h (1.0x); compras y ventas parejas (51%)"
+      "puntaje": 9,
+      "motivo": "volumen normal en 1h (0.8x); presión compradora: 69% compras en 1h"
     },
     {
-      "hora": "2026-11-25T19:14:14+00:00",
+      "hora": "2026-11-25T19:43:45+00:00",
       "decision": "AGENT_HOLDERS",
       "simbolo": "PumpMas",
       "estrategia": "trend_rsi",
@@ -237,58 +246,49 @@
       "motivo": "RugCheck: holders medios (top10 26.3%); mint renunciado; freeze renunciado"
     },
     {
-      "hora": "2026-11-25T19:14:14+00:00",
+      "hora": "2026-11-25T19:43:45+00:00",
       "decision": "AGENT_VOLATILIDAD",
       "simbolo": "PumpMas",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
       "puntaje": 8,
-      "motivo": "movimiento sano: +2.2% en 1h"
+      "motivo": "movimiento sano: +7.5% en 1h"
     },
     {
-      "hora": "2026-11-25T19:14:14+00:00",
+      "hora": "2026-11-25T19:43:45+00:00",
       "decision": "HINT",
       "simbolo": "PumpMas",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
       "puntaje": 6,
-      "motivo": "PumpMas: visto 69 veces antes; rechazado 10 veces; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $102573 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel si"
+      "motivo": "PumpMas: visto 244 veces antes; rechazado 35 veces; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $103912 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel si"
     },
     {
-      "hora": "2026-11-25T19:14:14+00:00",
+      "hora": "2026-11-25T19:43:45+00:00",
       "decision": "REJECT",
-      "simbolo": " JWIF",
+      "simbolo": "Memeployed",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
       "puntaje": 6,
-      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $40732 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $13305 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real); par demasiado joven (0.7 h < 3 h de historia mínima); top 10 holders con"
+      "motivo": "reglas rotas: MERCADO-01, MERCADO-02, MEME-01: valor $15658 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $10214 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real), FLUJO-01: compras 55% < 58% (mandan las ventas); rug check n"
     },
     {
-      "hora": "2026-11-25T19:14:14+00:00",
+      "hora": "2026-11-25T19:43:44+00:00",
+      "decision": "REJECT",
+      "simbolo": "COIN",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 6,
+      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $30149 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $12079 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real); par demasiado joven (0.1 h < 3 h de historia mínima); top 10 holders con"
+    },
+    {
+      "hora": "2026-11-25T19:43:44+00:00",
       "decision": "AGENT_RIESGO",
-      "simbolo": " JWIF",
+      "simbolo": "COIN",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
       "puntaje": 10,
-      "motivo": "riesgo bajo control (saldo $192.32); memoria:  JWIF: visto 33 veces antes; rechazado 9 veces; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $40763 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin"
-    },
-    {
-      "hora": "2026-11-25T19:14:14+00:00",
-      "decision": "AGENT_SENTIMIENTO",
-      "simbolo": " JWIF",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 4,
-      "motivo": "miedo extremo en el mercado (13)"
-    },
-    {
-      "hora": "2026-11-25T19:14:14+00:00",
-      "decision": "AGENT_FLUJO",
-      "simbolo": " JWIF",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 10,
-      "motivo": "pico de volumen en 1h (24.0x el promedio); volumen creciendo en 6h; compras y ventas parejas (46%)"
+      "motivo": "riesgo bajo control (saldo $192.32); memoria: COIN: visto 12 veces antes; rechazado 6 veces; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $30610 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin"
     }
   ],
   "eventos_recientes": [
@@ -464,7 +464,7 @@
     }
   },
   "ultima_operacion_cierre": "2026-11-25T18:46:33+00:00",
-  "ultima_actualizacion": "2026-11-25T19:14:26.240646+00:00",
+  "ultima_actualizacion": "2026-11-25T19:44:23.998617+00:00",
   "costes": {
     "bruto_usd": -5.7558,
     "comision_compra_usd": 0.3702,
@@ -496,9 +496,9 @@
     "max_racha_perdidas": 4,
     "slippage_medio_usd": 0.1154,
     "tiempo_entrada": {
-      "count": 3775,
-      "avg_minutes": 6892.5,
-      "median_minutes": 1450.1
+      "count": 4091,
+      "avg_minutes": 6824.1,
+      "median_minutes": 1468.2
     },
     "meta_60": {
       "acierto": false,
@@ -510,36 +510,36 @@
     "nodos": [
       {
         "regla": "MEME-01",
-        "usos": 3138,
-        "peso": 3137.981,
-        "ultimo_uso": "2026-11-25T19:14:16+00:00",
+        "usos": 3388,
+        "peso": 3387.922,
+        "ultimo_uso": "2026-11-25T19:43:46+00:00",
         "estado": "activa"
       },
       {
         "regla": "FLUJO-01",
-        "usos": 2367,
-        "peso": 2366.986,
-        "ultimo_uso": "2026-11-25T19:14:16+00:00",
+        "usos": 2570,
+        "peso": 2569.941,
+        "ultimo_uso": "2026-11-25T19:43:46+00:00",
         "estado": "activa"
       },
       {
         "regla": "MERCADO-01",
-        "usos": 1744,
-        "peso": 1743.989,
-        "ultimo_uso": "2026-11-25T19:14:16+00:00",
+        "usos": 1882,
+        "peso": 1881.957,
+        "ultimo_uso": "2026-11-25T19:43:46+00:00",
         "estado": "activa"
       },
       {
         "regla": "MERCADO-02",
-        "usos": 620,
-        "peso": 619.996,
-        "ultimo_uso": "2026-11-25T19:14:15+00:00",
+        "usos": 682,
+        "peso": 681.984,
+        "ultimo_uso": "2026-11-25T19:43:45+00:00",
         "estado": "activa"
       },
       {
         "regla": "RIESGO-01",
         "usos": 128,
-        "peso": 127.875,
+        "peso": 127.743,
         "ultimo_uso": "2026-11-25T18:46:00+00:00",
         "estado": "activa"
       },
@@ -583,56 +583,56 @@
       {
         "de": "FLUJO-01",
         "a": "MEME-01",
-        "veces": 2190,
-        "peso": 2189.987
+        "veces": 2368,
+        "peso": 2367.946
       },
       {
         "de": "MEME-01",
         "a": "MERCADO-01",
-        "veces": 1135,
-        "peso": 1134.993
+        "veces": 1248,
+        "peso": 1247.971
       },
       {
         "de": "FLUJO-01",
         "a": "MERCADO-01",
-        "veces": 574,
-        "peso": 573.997
+        "veces": 646,
+        "peso": 645.985
       },
       {
         "de": "FLUJO-01",
         "a": "MERCADO-02",
-        "veces": 481,
-        "peso": 480.997
+        "veces": 527,
+        "peso": 526.988
       },
       {
         "de": "MEME-01",
         "a": "MERCADO-02",
-        "veces": 473,
-        "peso": 472.997
+        "veces": 519,
+        "peso": 518.988
       },
       {
         "de": "MERCADO-01",
         "a": "MERCADO-02",
-        "veces": 191,
-        "peso": 190.999
+        "veces": 214,
+        "peso": 213.995
       },
       {
         "de": "MEME-01",
         "a": "RIESGO-01",
         "veces": 115,
-        "peso": 114.888
+        "peso": 114.769
       },
       {
         "de": "FLUJO-01",
         "a": "RIESGO-01",
         "veces": 96,
-        "peso": 95.906
+        "peso": 95.807
       },
       {
         "de": "MERCADO-01",
         "a": "RIESGO-01",
         "veces": 21,
-        "peso": 20.979
+        "peso": 20.958
       }
     ],
     "resumen": {
@@ -641,247 +641,247 @@
       "reglas_dormidas": 3,
       "enlaces": 9
     },
-    "pistas_dadas": 2471
+    "pistas_dadas": 2672
   },
   "triaje": {
     "puerta": 0.85,
     "carriles": {
-      "ignorar": 180,
-      "vigilar": 20,
+      "ignorar": 182,
+      "vigilar": 18,
       "operar": 0
     },
-    "confianza_promedio": 0.697,
+    "confianza_promedio": 0.677,
     "confianza_por_carril": {
-      "ignorar": 0.718,
-      "vigilar": 0.609
+      "ignorar": 0.696,
+      "vigilar": 0.57
     },
     "retenidas": [
       {
         "simbolo": "FIONA",
-        "confianza": 0.83,
+        "confianza": 0.8,
         "ruta": "ignorar",
         "puntaje_regla": 10,
         "vol": 8.0,
         "holders": 10.0,
-        "flujo": 8.0,
+        "flujo": 7.0,
         "sent": 5.0,
-        "agente": 8.3,
-        "latencia_ms": 868.5,
-        "hora": "2026-11-25T19:08:12+00:00",
-        "motivos": "reglas rotas: FLUJO-01: compras 55% < 58% (mandan las ventas)"
-      },
-      {
-        "simbolo": "FIONA",
-        "confianza": 0.83,
-        "ruta": "ignorar",
-        "puntaje_regla": 10,
-        "vol": 8.0,
-        "holders": 10.0,
-        "flujo": 8.0,
-        "sent": 5.0,
-        "agente": 8.3,
-        "latencia_ms": 962.9,
-        "hora": "2026-11-25T18:56:15+00:00",
-        "motivos": "reglas rotas: FLUJO-01: compras 55% < 58% (mandan las ventas)"
+        "agente": 8.0,
+        "latencia_ms": 598.4,
+        "hora": "2026-11-25T19:43:40+00:00",
+        "motivos": "reglas rotas: FLUJO-01: compras 50% < 58% (mandan las ventas)"
       },
       {
         "simbolo": "FIONA",
         "confianza": 0.8,
         "ruta": "ignorar",
-        "puntaje_regla": 9,
-        "vol": 7.0,
-        "holders": 10.0,
-        "flujo": 8.0,
-        "sent": 5.0,
-        "agente": 8.0,
-        "latencia_ms": 987.1,
-        "hora": "2026-11-25T19:09:24+00:00",
-        "motivos": "reglas rotas: FLUJO-01: compras 55% < 58% (mandan las ventas)"
-      },
-      {
-        "simbolo": "Santa",
-        "confianza": 0.77,
-        "ruta": "ignorar",
-        "puntaje_regla": 8,
+        "puntaje_regla": 10,
         "vol": 8.0,
-        "holders": 6.0,
-        "flujo": 10.0,
-        "sent": 5.0,
-        "agente": 7.7,
-        "latencia_ms": 303.8,
-        "hora": "2026-11-25T19:14:13+00:00",
-        "motivos": "reglas rotas: MEME-01: valor $131949 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $20562 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no h"
-      },
-      {
-        "simbolo": "FIONA",
-        "confianza": 0.77,
-        "ruta": "ignorar",
-        "puntaje_regla": 9,
-        "vol": 7.0,
         "holders": 10.0,
         "flujo": 7.0,
         "sent": 5.0,
-        "agente": 7.7,
-        "latencia_ms": 292.7,
-        "hora": "2026-11-25T19:14:11+00:00",
+        "agente": 8.0,
+        "latencia_ms": 499.1,
+        "hora": "2026-11-25T19:42:27+00:00",
+        "motivos": "reglas rotas: FLUJO-01: compras 50% < 58% (mandan las ventas)"
+      },
+      {
+        "simbolo": "FIONA",
+        "confianza": 0.8,
+        "ruta": "ignorar",
+        "puntaje_regla": 10,
+        "vol": 8.0,
+        "holders": 10.0,
+        "flujo": 7.0,
+        "sent": 5.0,
+        "agente": 8.0,
+        "latencia_ms": 593.2,
+        "hora": "2026-11-25T19:41:17+00:00",
+        "motivos": "reglas rotas: FLUJO-01: compras 50% < 58% (mandan las ventas)"
+      },
+      {
+        "simbolo": "FIONA",
+        "confianza": 0.8,
+        "ruta": "ignorar",
+        "puntaje_regla": 10,
+        "vol": 8.0,
+        "holders": 10.0,
+        "flujo": 7.0,
+        "sent": 5.0,
+        "agente": 8.0,
+        "latencia_ms": 813.6,
+        "hora": "2026-11-25T19:40:03+00:00",
+        "motivos": "reglas rotas: FLUJO-01: compras 50% < 58% (mandan las ventas)"
+      },
+      {
+        "simbolo": "FIONA",
+        "confianza": 0.8,
+        "ruta": "ignorar",
+        "puntaje_regla": 10,
+        "vol": 8.0,
+        "holders": 10.0,
+        "flujo": 7.0,
+        "sent": 5.0,
+        "agente": 8.0,
+        "latencia_ms": 826.0,
+        "hora": "2026-11-25T19:38:48+00:00",
+        "motivos": "reglas rotas: FLUJO-01: compras 49% < 58% (mandan las ventas)"
+      },
+      {
+        "simbolo": "FIONA",
+        "confianza": 0.8,
+        "ruta": "ignorar",
+        "puntaje_regla": 10,
+        "vol": 8.0,
+        "holders": 10.0,
+        "flujo": 7.0,
+        "sent": 5.0,
+        "agente": 8.0,
+        "latencia_ms": 1661.8,
+        "hora": "2026-11-25T19:37:50+00:00",
+        "motivos": "reglas rotas: FLUJO-01: compras 51% < 58% (mandan las ventas)"
+      },
+      {
+        "simbolo": "FIONA",
+        "confianza": 0.8,
+        "ruta": "ignorar",
+        "puntaje_regla": 10,
+        "vol": 8.0,
+        "holders": 10.0,
+        "flujo": 7.0,
+        "sent": 5.0,
+        "agente": 8.0,
+        "latencia_ms": 1491.3,
+        "hora": "2026-11-25T19:36:35+00:00",
         "motivos": "reglas rotas: FLUJO-01: compras 52% < 58% (mandan las ventas)"
       },
       {
-        "simbolo": "Santa",
-        "confianza": 0.77,
-        "ruta": "ignorar",
-        "puntaje_regla": 8,
-        "vol": 8.0,
-        "holders": 6.0,
-        "flujo": 10.0,
-        "sent": 5.0,
-        "agente": 7.7,
-        "latencia_ms": 515.7,
-        "hora": "2026-11-25T19:13:01+00:00",
-        "motivos": "reglas rotas: MEME-01: valor $132634 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $20615 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no h"
-      },
-      {
         "simbolo": "FIONA",
-        "confianza": 0.77,
+        "confianza": 0.8,
         "ruta": "ignorar",
-        "puntaje_regla": 9,
-        "vol": 7.0,
+        "puntaje_regla": 10,
+        "vol": 8.0,
         "holders": 10.0,
         "flujo": 7.0,
         "sent": 5.0,
-        "agente": 7.7,
-        "latencia_ms": 458.7,
-        "hora": "2026-11-25T19:12:58+00:00",
-        "motivos": "reglas rotas: FLUJO-01: compras 53% < 58% (mandan las ventas)"
-      },
-      {
-        "simbolo": "Santa",
-        "confianza": 0.77,
-        "ruta": "ignorar",
-        "puntaje_regla": 8,
-        "vol": 8.0,
-        "holders": 6.0,
-        "flujo": 10.0,
-        "sent": 5.0,
-        "agente": 7.7,
-        "latencia_ms": 314.8,
-        "hora": "2026-11-25T19:11:51+00:00",
-        "motivos": "reglas rotas: MEME-01: valor $132440 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $20600 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no h"
+        "agente": 8.0,
+        "latencia_ms": 632.7,
+        "hora": "2026-11-25T19:35:21+00:00",
+        "motivos": "reglas rotas: FLUJO-01: compras 52% < 58% (mandan las ventas)"
       },
       {
         "simbolo": "FIONA",
-        "confianza": 0.77,
+        "confianza": 0.8,
         "ruta": "ignorar",
-        "puntaje_regla": 9,
-        "vol": 7.0,
+        "puntaje_regla": 10,
+        "vol": 8.0,
         "holders": 10.0,
         "flujo": 7.0,
         "sent": 5.0,
-        "agente": 7.7,
-        "latencia_ms": 294.8,
-        "hora": "2026-11-25T19:11:49+00:00",
-        "motivos": "reglas rotas: FLUJO-01: compras 53% < 58% (mandan las ventas)"
+        "agente": 8.0,
+        "latencia_ms": 320.7,
+        "hora": "2026-11-25T19:34:09+00:00",
+        "motivos": "reglas rotas: FLUJO-01: compras 52% < 58% (mandan las ventas)"
       },
       {
-        "simbolo": "Santa",
-        "confianza": 0.77,
+        "simbolo": "Pompom",
+        "confianza": 0.8,
         "ruta": "ignorar",
         "puntaje_regla": 8,
-        "vol": 8.0,
-        "holders": 6.0,
-        "flujo": 10.0,
+        "vol": 7.0,
+        "holders": 9.0,
+        "flujo": 9.0,
         "sent": 5.0,
-        "agente": 7.7,
-        "latencia_ms": 363.4,
-        "hora": "2026-11-25T19:10:41+00:00",
-        "motivos": "reglas rotas: MEME-01: valor $130811 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $20473 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no h"
+        "agente": 8.0,
+        "latencia_ms": 305.9,
+        "hora": "2026-11-25T19:33:02+00:00",
+        "motivos": "reglas rotas: MEME-01: valor $454841 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $55173 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no h"
       }
     ],
     "latencia": {
       "n": 200,
-      "promedio_ms": 403.5,
-      "max_ms": 2810.2,
+      "promedio_ms": 385.8,
+      "max_ms": 3713.8,
       "costo_total_usd": 0.0,
       "serie": [
         {
-          "hora": "2026-11-25T19:13:02+00:00",
-          "latencia_ms": 335.1
+          "hora": "2026-11-25T19:42:34+00:00",
+          "latencia_ms": 338.0
         },
         {
-          "hora": "2026-11-25T19:13:02+00:00",
-          "latencia_ms": 396.7
-        },
-        {
-          "hora": "2026-11-25T19:13:03+00:00",
-          "latencia_ms": 0.2
-        },
-        {
-          "hora": "2026-11-25T19:13:03+00:00",
-          "latencia_ms": 0.2
-        },
-        {
-          "hora": "2026-11-25T19:13:03+00:00",
-          "latencia_ms": 289.4
-        },
-        {
-          "hora": "2026-11-25T19:13:06+00:00",
-          "latencia_ms": 0.2
-        },
-        {
-          "hora": "2026-11-25T19:13:06+00:00",
-          "latencia_ms": 2062.2
-        },
-        {
-          "hora": "2026-11-25T19:14:11+00:00",
-          "latencia_ms": 0.2
-        },
-        {
-          "hora": "2026-11-25T19:14:11+00:00",
-          "latencia_ms": 293.3
-        },
-        {
-          "hora": "2026-11-25T19:14:11+00:00",
-          "latencia_ms": 292.7
-        },
-        {
-          "hora": "2026-11-25T19:14:12+00:00",
-          "latencia_ms": 0.2
-        },
-        {
-          "hora": "2026-11-25T19:14:12+00:00",
-          "latencia_ms": 287.6
-        },
-        {
-          "hora": "2026-11-25T19:14:13+00:00",
-          "latencia_ms": 299.4
-        },
-        {
-          "hora": "2026-11-25T19:14:13+00:00",
-          "latencia_ms": 303.8
-        },
-        {
-          "hora": "2026-11-25T19:14:14+00:00",
-          "latencia_ms": 300.2
-        },
-        {
-          "hora": "2026-11-25T19:14:14+00:00",
-          "latencia_ms": 330.7
-        },
-        {
-          "hora": "2026-11-25T19:14:15+00:00",
-          "latencia_ms": 0.2
-        },
-        {
-          "hora": "2026-11-25T19:14:15+00:00",
-          "latencia_ms": 0.2
-        },
-        {
-          "hora": "2026-11-25T19:14:15+00:00",
-          "latencia_ms": 0.2
-        },
-        {
-          "hora": "2026-11-25T19:14:15+00:00",
+          "hora": "2026-11-25T19:42:35+00:00",
           "latencia_ms": 0.1
+        },
+        {
+          "hora": "2026-11-25T19:42:35+00:00",
+          "latencia_ms": 0.2
+        },
+        {
+          "hora": "2026-11-25T19:42:35+00:00",
+          "latencia_ms": 285.1
+        },
+        {
+          "hora": "2026-11-25T19:42:36+00:00",
+          "latencia_ms": 0.2
+        },
+        {
+          "hora": "2026-11-25T19:43:40+00:00",
+          "latencia_ms": 598.4
+        },
+        {
+          "hora": "2026-11-25T19:43:41+00:00",
+          "latencia_ms": 1166.3
+        },
+        {
+          "hora": "2026-11-25T19:43:42+00:00",
+          "latencia_ms": 348.4
+        },
+        {
+          "hora": "2026-11-25T19:43:42+00:00",
+          "latencia_ms": 515.7
+        },
+        {
+          "hora": "2026-11-25T19:43:43+00:00",
+          "latencia_ms": 0.2
+        },
+        {
+          "hora": "2026-11-25T19:43:43+00:00",
+          "latencia_ms": 285.9
+        },
+        {
+          "hora": "2026-11-25T19:43:44+00:00",
+          "latencia_ms": 0.2
+        },
+        {
+          "hora": "2026-11-25T19:43:44+00:00",
+          "latencia_ms": 296.2
+        },
+        {
+          "hora": "2026-11-25T19:43:44+00:00",
+          "latencia_ms": 333.2
+        },
+        {
+          "hora": "2026-11-25T19:43:45+00:00",
+          "latencia_ms": 0.2
+        },
+        {
+          "hora": "2026-11-25T19:43:45+00:00",
+          "latencia_ms": 326.9
+        },
+        {
+          "hora": "2026-11-25T19:43:46+00:00",
+          "latencia_ms": 0.2
+        },
+        {
+          "hora": "2026-11-25T19:43:46+00:00",
+          "latencia_ms": 0.2
+        },
+        {
+          "hora": "2026-11-25T19:43:46+00:00",
+          "latencia_ms": 0.2
+        },
+        {
+          "hora": "2026-11-25T19:43:46+00:00",
+          "latencia_ms": 0.2
         }
       ]
     },
@@ -895,17 +895,17 @@
       "holders": null,
       "flujo": null,
       "sent": null,
-      "hora": "2026-11-25T19:14:15+00:00"
+      "hora": "2026-11-25T19:43:46+00:00"
     }
   },
   "agentes": {
     "scanner": {
-      "evaluadas": 19298,
-      "simbolos": 68,
-      "ultima_sesion": 438
+      "evaluadas": 20864,
+      "simbolos": 74,
+      "ultima_sesion": 2004
     },
     "rug_check": {
-      "filtrados": 4010
+      "filtrados": 4326
     },
     "sizer": {
       "tamano_tipico_usd": 12.34,
@@ -918,7 +918,7 @@
       "abiertas": 0
     },
     "logger": {
-      "registros": 19475
+      "registros": 21041
     },
     "equity": {
       "saldo": 192.3195,
@@ -930,32 +930,32 @@
     "volatilidad": {
       "ultimo_puntaje": 8,
       "simbolo": "PumpMas",
-      "motivo": "movimiento sano: +2.2% en 1h",
-      "hora": "2026-11-25T19:14:14+00:00"
+      "motivo": "movimiento sano: +7.5% en 1h",
+      "hora": "2026-11-25T19:43:45+00:00"
     },
     "holders": {
       "ultimo_puntaje": 7,
       "simbolo": "PumpMas",
       "motivo": "RugCheck: holders medios (top10 26.3%); mint renunciado; freeze renunciado",
-      "hora": "2026-11-25T19:14:14+00:00"
+      "hora": "2026-11-25T19:43:45+00:00"
     },
     "flujo": {
-      "ultimo_puntaje": 7,
+      "ultimo_puntaje": 9,
       "simbolo": "PumpMas",
-      "motivo": "volumen normal en 1h (1.0x); compras y ventas parejas (51%)",
-      "hora": "2026-11-25T19:14:14+00:00"
+      "motivo": "volumen normal en 1h (0.8x); presión compradora: 69% compras en 1h",
+      "hora": "2026-11-25T19:43:45+00:00"
     },
     "sentimiento": {
       "ultimo_puntaje": 5,
       "simbolo": "PumpMas",
       "motivo": "miedo extremo en el mercado (13); token impulsado en DexScreener (atención)",
-      "hora": "2026-11-25T19:14:14+00:00"
+      "hora": "2026-11-25T19:43:45+00:00"
     },
     "riesgo": {
       "ultimo_puntaje": 10,
       "simbolo": "PumpMas",
-      "motivo": "riesgo bajo control (saldo $192.32); memoria: PumpMas: visto 69 veces antes; rechazado 10 veces; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $102573 < mínimo $2000000 (lección PAPEL-NO-DIN",
-      "hora": "2026-11-25T19:14:14+00:00"
+      "motivo": "riesgo bajo control (saldo $192.32); memoria: PumpMas: visto 244 veces antes; rechazado 35 veces; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $103912 < mínimo $2000000 (lección PAPEL-NO-DI",
+      "hora": "2026-11-25T19:43:45+00:00"
     },
     "ultimo_puntaje_aprobado": {
       "simbolo": "GREM",
@@ -1006,14 +1006,14 @@
     "regimen": "bajista",
     "inicio": "2026-11-25T19:05:49+00:00",
     "estado": "activa",
-    "ultimo_latido": "2026-11-25T19:14:07+00:00"
+    "ultimo_latido": "2026-11-25T19:44:17+00:00"
   },
   "tiempos": {
-    "trabajo_segundos": 35287.65107035637,
+    "trabajo_segundos": 36968.54595923424,
     "aprendizaje_segundos": 8.887313604354858,
-    "trabajo": "09:48:07",
+    "trabajo": "10:16:08",
     "aprendizaje": "00:00:08",
-    "actualizado": "2026-11-25T19:14:26.240646+00:00"
+    "actualizado": "2026-11-25T19:44:23.998617+00:00"
   },
   "aprendizaje": {
     "ultimo_ciclo": "2026-11-25T17:40:40+00:00",
