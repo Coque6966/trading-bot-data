@@ -107,7 +107,7 @@
     "en_seguimiento": 140,
     "retenidas": 140,
     "decisiones_totales": 10436,
-    "eventos": 62,
+    "eventos": 90,
     "precios_observados": 43,
     "reglas_aprendidas": 5
   },
@@ -263,109 +263,109 @@
   ],
   "eventos_recientes": [
     {
-      "hora": "2026-11-25T15:43:48+00:00",
-      "agente": "run_bot",
-      "accion": "STALE_DATA",
+      "hora": "2026-11-25T16:08:57+00:00",
+      "agente": "learner",
+      "accion": "LEARN",
       "simbolo": null,
-      "motivo": "sin datos frescos 610 s"
+      "motivo": "CICLO DIARIO DE APRENDIZAJE — 3 operaciones en memoria | General: 3 ops, 0 ganadas (0.0%), factor 0.0, expectativa $-1.9209 | Patrón: stop-loss 2 ops, 0 ganadas, PnL $-4.5042 (el SL no protege de huecos en memecoins) | Patrón: la moneda que más pierde es JaoJiu (PnL $-5.7627) | NOTA: Muestra insufic"
     },
     {
-      "hora": "2026-11-25T15:42:47+00:00",
-      "agente": "run_bot",
-      "accion": "STALE_DATA",
-      "simbolo": null,
-      "motivo": "sin datos frescos 550 s"
-    },
-    {
-      "hora": "2026-11-25T15:41:47+00:00",
-      "agente": "run_bot",
-      "accion": "STALE_DATA",
-      "simbolo": null,
-      "motivo": "sin datos frescos 490 s"
-    },
-    {
-      "hora": "2026-11-25T15:40:47+00:00",
-      "agente": "run_bot",
-      "accion": "STALE_DATA",
-      "simbolo": null,
-      "motivo": "sin datos frescos 430 s"
-    },
-    {
-      "hora": "2026-11-25T15:39:47+00:00",
-      "agente": "run_bot",
-      "accion": "STALE_DATA",
-      "simbolo": null,
-      "motivo": "sin datos frescos 370 s"
-    },
-    {
-      "hora": "2026-11-25T15:38:47+00:00",
-      "agente": "run_bot",
-      "accion": "STALE_DATA",
-      "simbolo": null,
-      "motivo": "sin datos frescos 310 s"
-    },
-    {
-      "hora": "2026-11-25T15:34:47+00:00",
+      "hora": "2026-11-25T16:08:47+00:00",
       "agente": "run_bot",
       "accion": "LIMITE_PERDIDA",
       "simbolo": null,
-      "motivo": "día -2.9%, semana -2.9%"
+      "motivo": "día -3.0%, semana -3.0%"
     },
     {
-      "hora": "2026-11-25T15:34:47+00:00",
-      "agente": "executor",
-      "accion": "CLOSE",
-      "simbolo": "JaoJiu",
-      "motivo": "stop-loss (costes $0.4689: compra $0.0922 + venta $0.0755 + spread $0.0560 + slip $0.1119 + red $0.1333)"
-    },
-    {
-      "hora": "2026-11-25T15:23:19+00:00",
-      "agente": "executor",
-      "accion": "OPEN",
-      "simbolo": "JaoJiu",
-      "motivo": "entrada simulada (jupiter: comisión 0.75%, slippage 0.50%, spread 0.50%, red $0.1333)"
-    },
-    {
-      "hora": "2026-11-25T15:12:58+00:00",
-      "agente": "executor",
-      "accion": "PRETRADE_REJECT",
-      "simbolo": "JaoJiu",
-      "motivo": "orden duplicada: mismo token enviado hace < 120 s"
-    },
-    {
-      "hora": "2026-11-25T15:12:41+00:00",
-      "agente": "executor",
-      "accion": "CLOSE",
-      "simbolo": "JaoJiu",
-      "motivo": "stop-loss (costes $0.4813: compra $0.0931 + venta $0.0806 + spread $0.0580 + slip $0.1159 + red $0.1337)"
-    },
-    {
-      "hora": "2026-11-25T15:12:11+00:00",
-      "agente": "executor",
-      "accion": "OPEN",
-      "simbolo": "JaoJiu",
-      "motivo": "entrada simulada (jupiter: comisión 0.75%, slippage 0.50%, spread 0.50%, red $0.1337)"
-    },
-    {
-      "hora": "2026-11-25T15:11:48+00:00",
+      "hora": "2026-11-25T16:08:46+00:00",
       "agente": "run_bot",
       "accion": "SESSION_START",
       "simbolo": null,
-      "motivo": "sesión 2304d256, estrategia trend_rsi, régimen bajista, modo 24/7"
+      "motivo": "sesión d24db398, estrategia trend_rsi, régimen bajista, modo 24/7"
     },
     {
-      "hora": "2026-11-25T15:11:14+00:00",
+      "hora": "2026-11-25T16:08:45+00:00",
       "agente": "run_bot",
       "accion": "SESSION_END",
       "simbolo": null,
-      "motivo": "1 operaciones, 1 cerradas, modo 24/7"
+      "motivo": "2 operaciones, 2 cerradas, modo 24/7"
     },
     {
-      "hora": "2026-11-25T15:11:14+00:00",
-      "agente": "executor",
-      "accion": "CLOSE",
-      "simbolo": "JaoJiu",
-      "motivo": "parada-24-7 (costes $0.4952: compra $0.0938 + venta $0.0867 + spread $0.0601 + slip $0.1203 + red $0.1344)"
+      "hora": "2026-11-25T16:07:51+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 2054 s"
+    },
+    {
+      "hora": "2026-11-25T16:06:51+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1994 s"
+    },
+    {
+      "hora": "2026-11-25T16:05:51+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1934 s"
+    },
+    {
+      "hora": "2026-11-25T16:04:51+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1873 s"
+    },
+    {
+      "hora": "2026-11-25T16:03:51+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1813 s"
+    },
+    {
+      "hora": "2026-11-25T16:02:51+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1753 s"
+    },
+    {
+      "hora": "2026-11-25T16:01:50+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1693 s"
+    },
+    {
+      "hora": "2026-11-25T16:00:50+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1633 s"
+    },
+    {
+      "hora": "2026-11-25T15:59:50+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1573 s"
+    },
+    {
+      "hora": "2026-11-25T15:58:50+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1513 s"
+    },
+    {
+      "hora": "2026-11-25T15:57:50+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1452 s"
     }
   ],
   "backtest": {
@@ -434,7 +434,7 @@
     }
   },
   "ultima_operacion_cierre": "2026-11-25T15:34:47+00:00",
-  "ultima_actualizacion": "2026-11-25T15:44:24.923950+00:00",
+  "ultima_actualizacion": "2026-11-25T16:10:44.097514+00:00",
   "costes": {
     "bruto_usd": -4.3172,
     "comision_compra_usd": 0.2791,
@@ -481,35 +481,35 @@
       {
         "regla": "MEME-01",
         "usos": 1586,
-        "peso": 1585.418,
+        "peso": 1583.985,
         "ultimo_uso": "2026-11-25T15:33:46+00:00",
         "estado": "activa"
       },
       {
         "regla": "FLUJO-01",
         "usos": 1202,
-        "peso": 1201.557,
+        "peso": 1200.472,
         "ultimo_uso": "2026-11-25T15:33:44+00:00",
         "estado": "activa"
       },
       {
         "regla": "MERCADO-01",
         "usos": 982,
-        "peso": 981.639,
+        "peso": 980.753,
         "ultimo_uso": "2026-11-25T15:33:46+00:00",
         "estado": "activa"
       },
       {
         "regla": "MERCADO-02",
         "usos": 259,
-        "peso": 258.905,
+        "peso": 258.671,
         "ultimo_uso": "2026-11-25T15:33:46+00:00",
         "estado": "activa"
       },
       {
         "regla": "RIESGO-01",
         "usos": 80,
-        "peso": 79.971,
+        "peso": 79.898,
         "ultimo_uso": "2026-11-25T15:33:44+00:00",
         "estado": "activa"
       },
@@ -518,14 +518,14 @@
         "usos": 0,
         "peso": 0.0,
         "ultimo_uso": null,
-        "estado": "activa"
+        "estado": "dormida"
       },
       {
         "regla": "LECCION_COPIA_TARDE",
         "usos": 0,
         "peso": 0.0,
         "ultimo_uso": null,
-        "estado": "activa"
+        "estado": "dormida"
       },
       {
         "regla": "LECCION_PAPEL_NO_DINERO",
@@ -539,7 +539,7 @@
         "usos": 0,
         "peso": 0.0,
         "ultimo_uso": null,
-        "estado": "activa"
+        "estado": "dormida"
       },
       {
         "regla": "LECCION_PROMOCION_SALIDA",
@@ -554,61 +554,61 @@
         "de": "FLUJO-01",
         "a": "MEME-01",
         "veces": 1178,
-        "peso": 1177.567
+        "peso": 1176.503
       },
       {
         "de": "MEME-01",
         "a": "MERCADO-01",
         "veces": 491,
-        "peso": 490.82
+        "peso": 490.376
       },
       {
         "de": "FLUJO-01",
         "a": "MERCADO-01",
         "veces": 299,
-        "peso": 298.89
+        "peso": 298.62
       },
       {
         "de": "FLUJO-01",
         "a": "MERCADO-02",
         "veces": 191,
-        "peso": 190.929
+        "peso": 190.757
       },
       {
         "de": "MEME-01",
         "a": "MERCADO-02",
         "veces": 182,
-        "peso": 181.933
+        "peso": 181.769
       },
       {
         "de": "MEME-01",
         "a": "RIESGO-01",
         "veces": 80,
-        "peso": 79.971
+        "peso": 79.898
       },
       {
         "de": "MERCADO-01",
         "a": "MERCADO-02",
         "veces": 77,
-        "peso": 76.972
+        "peso": 76.902
       },
       {
         "de": "FLUJO-01",
         "a": "RIESGO-01",
         "veces": 59,
-        "peso": 58.978
+        "peso": 58.925
       },
       {
         "de": "MERCADO-01",
         "a": "RIESGO-01",
         "veces": 17,
-        "peso": 16.994
+        "peso": 16.978
       }
     ],
     "resumen": {
       "reglas_totales": 10,
-      "reglas_activas": 10,
-      "reglas_dormidas": 0,
+      "reglas_activas": 7,
+      "reglas_dormidas": 3,
       "enlaces": 9
     },
     "pistas_dadas": 1336
@@ -681,7 +681,7 @@
         "agente": 7.4,
         "latencia_ms": 358.7,
         "hora": "2026-11-25T15:31:32+00:00",
-        "motivos": "reglas rotas: RIESGO-01, MEME-01: valor $301973 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $41897 < mínimo $100000 (lección PAPEL-NO-DINERO: sin li"
+        "motivos": "reglas rotas: RIESGO-01, MEME-01: valor $308333 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $42391 < mínimo $100000 (lección PAPEL-NO-DINERO: sin li"
       },
       {
         "simbolo": "Pompom",
@@ -694,6 +694,20 @@
         "sent": 5.0,
         "agente": 7.4,
         "latencia_ms": 408.7,
+        "hora": "2026-11-25T15:30:20+00:00",
+        "motivos": "reglas rotas: RIESGO-01, MEME-01: valor $314354 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $42797 < mínimo $100000 (lección PAPEL-NO-DINERO: sin li"
+      },
+      {
+        "simbolo": "Pompom",
+        "confianza": 0.74,
+        "ruta": "ignorar",
+        "puntaje_regla": 7,
+        "vol": 6.0,
+        "holders": 7.0,
+        "flujo": 10.0,
+        "sent": 5.0,
+        "agente": 7.4,
+        "latencia_ms": 301.1,
         "hora": "2026-11-25T15:29:11+00:00",
         "motivos": "reglas rotas: RIESGO-01, MEME-01: valor $304698 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $42108 < mínimo $100000 (lección PAPEL-NO-DINERO: sin li"
       },
@@ -707,7 +721,7 @@
         "flujo": 10.0,
         "sent": 5.0,
         "agente": 7.4,
-        "latencia_ms": 373.1,
+        "latencia_ms": 313.2,
         "hora": "2026-11-25T15:28:02+00:00",
         "motivos": "reglas rotas: RIESGO-01, MEME-01: valor $301973 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $41897 < mínimo $100000 (lección PAPEL-NO-DINERO: sin li"
       },
@@ -721,7 +735,7 @@
         "flujo": 10.0,
         "sent": 5.0,
         "agente": 7.4,
-        "latencia_ms": 306.2,
+        "latencia_ms": 373.1,
         "hora": "2026-11-25T15:24:33+00:00",
         "motivos": "reglas rotas: RIESGO-01, MEME-01: valor $314413 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $42794 < mínimo $100000 (lección PAPEL-NO-DINERO: sin li"
       },
@@ -735,7 +749,7 @@
         "flujo": 10.0,
         "sent": 5.0,
         "agente": 7.4,
-        "latencia_ms": 313.2,
+        "latencia_ms": 306.2,
         "hora": "2026-11-25T15:23:24+00:00",
         "motivos": "reglas rotas: RIESGO-01, MEME-01: valor $321971 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $43290 < mínimo $100000 (lección PAPEL-NO-DINERO: sin li"
       },
@@ -875,7 +889,7 @@
       "abiertas": 0
     },
     "logger": {
-      "registros": 10544
+      "registros": 10572
     },
     "equity": {
       "saldo": 194.2373,
@@ -949,16 +963,24 @@
     }
   ],
   "sesion": {
-    "id": "2304d256",
+    "id": "d24db398",
     "estrategia": "trend_rsi",
     "regimen": "bajista",
-    "inicio": "2026-11-25T15:11:48+00:00",
-    "estado": "activa"
+    "inicio": "2026-11-25T16:08:46+00:00",
+    "estado": "activa",
+    "ultimo_latido": "2026-11-25T16:10:32+00:00"
+  },
+  "tiempos": {
+    "trabajo_segundos": 26727.97007036209,
+    "aprendizaje_segundos": 5.8787267208099365,
+    "trabajo": "07:25:27",
+    "aprendizaje": "00:00:05",
+    "actualizado": "2026-11-25T16:10:44.097514+00:00"
   },
   "aprendizaje": {
-    "ultimo_ciclo": null,
+    "ultimo_ciclo": "2026-11-25T16:08:57+00:00",
     "reglas": 5,
-    "resumen": null
+    "resumen": "CICLO DIARIO DE APRENDIZAJE — 3 operaciones en memoria | General: 3 ops, 0 ganadas (0.0%), factor 0.0, expectativa $-1.9209 | Patrón: stop-loss 2 ops, 0 ganadas, PnL $-4.5042 (el SL no protege de huecos en memecoins) | Patrón: la moneda que más pierde es JaoJiu (PnL $-5.7627) | NOTA: Muestra insufic"
   },
   "modo": "demo",
   "enlace_exchange": {
