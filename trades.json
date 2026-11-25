@@ -16,7 +16,7 @@
     "en_seguimiento": 1,
     "retenidas": 1,
     "decisiones_totales": 109,
-    "eventos": 5,
+    "eventos": 32,
     "precios_observados": 0,
     "reglas_aprendidas": 5
   },
@@ -169,39 +169,109 @@
   ],
   "eventos_recientes": [
     {
-      "hora": "2026-11-25T08:41:57+00:00",
+      "hora": "2026-11-25T09:13:56+00:00",
       "agente": "run_bot",
-      "accion": "SESSION_START",
+      "accion": "STALE_DATA",
       "simbolo": null,
-      "motivo": "sesión 8a46a477, estrategia trend_rsi, régimen bajista, modo 24/7"
+      "motivo": "sin datos frescos 1919 s"
     },
     {
-      "hora": "2026-11-25T08:41:56+00:00",
+      "hora": "2026-11-25T09:12:56+00:00",
       "agente": "run_bot",
-      "accion": "SESSION_END",
+      "accion": "STALE_DATA",
       "simbolo": null,
-      "motivo": "0 operaciones, 0 cerradas, modo 24/7"
+      "motivo": "sin datos frescos 1858 s"
     },
     {
-      "hora": "2026-11-25T08:36:34+00:00",
+      "hora": "2026-11-25T09:11:55+00:00",
       "agente": "run_bot",
-      "accion": "SESSION_START",
+      "accion": "STALE_DATA",
       "simbolo": null,
-      "motivo": "sesión 79341539, estrategia trend_rsi, régimen bajista, modo 24/7"
+      "motivo": "sin datos frescos 1798 s"
     },
     {
-      "hora": "2026-11-25T08:36:33+00:00",
+      "hora": "2026-11-25T09:10:55+00:00",
       "agente": "run_bot",
-      "accion": "SESSION_END",
+      "accion": "STALE_DATA",
       "simbolo": null,
-      "motivo": "0 operaciones, 0 cerradas, modo 24/7"
+      "motivo": "sin datos frescos 1738 s"
     },
     {
-      "hora": "2026-11-25T08:32:03+00:00",
+      "hora": "2026-11-25T09:09:55+00:00",
       "agente": "run_bot",
-      "accion": "SESSION_START",
+      "accion": "STALE_DATA",
       "simbolo": null,
-      "motivo": "sesión 95b817e4, estrategia trend_rsi, régimen bajista, modo 24/7"
+      "motivo": "sin datos frescos 1678 s"
+    },
+    {
+      "hora": "2026-11-25T09:08:55+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1617 s"
+    },
+    {
+      "hora": "2026-11-25T09:07:55+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1557 s"
+    },
+    {
+      "hora": "2026-11-25T09:06:55+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1497 s"
+    },
+    {
+      "hora": "2026-11-25T09:05:54+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1437 s"
+    },
+    {
+      "hora": "2026-11-25T09:04:54+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1377 s"
+    },
+    {
+      "hora": "2026-11-25T09:03:54+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1317 s"
+    },
+    {
+      "hora": "2026-11-25T09:02:54+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1257 s"
+    },
+    {
+      "hora": "2026-11-25T09:01:54+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1197 s"
+    },
+    {
+      "hora": "2026-11-25T09:00:54+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1136 s"
+    },
+    {
+      "hora": "2026-11-25T08:59:54+00:00",
+      "agente": "run_bot",
+      "accion": "STALE_DATA",
+      "simbolo": null,
+      "motivo": "sin datos frescos 1076 s"
     }
   ],
   "backtest": {
@@ -211,25 +281,25 @@
     "wins": 8,
     "losses": 5,
     "win_rate_pct": 61.5,
-    "total_pnl_usd": 1.2776,
-    "initial_balance": 200.0,
-    "final_balance": 201.28,
+    "total_pnl_usd": 0.9024,
+    "initial_balance": 141.3,
+    "final_balance": 142.2,
     "max_losing_streak": 2,
     "profit_factor": 1.99,
-    "expectancy_usd": 0.0983,
-    "avg_win_usd": 0.3216,
-    "avg_loss_usd": 0.259,
+    "expectancy_usd": 0.0694,
+    "avg_win_usd": 0.2271,
+    "avg_loss_usd": 0.183,
     "rr_achieved": 1.24,
-    "max_drawdown_usd": 0.62,
-    "max_drawdown_pct": 0.31,
+    "max_drawdown_usd": 0.43,
+    "max_drawdown_pct": 0.3,
     "costs_applied": true,
-    "bruto_usd": 2.0895,
-    "comision_compra_usd": 0.1629,
-    "comision_venta_usd": 0.1644,
-    "comision_usd": 0.3273,
-    "spread_usd": 0.0566,
-    "slippage_usd": 0.428,
-    "costes_totales_usd": 0.8119,
+    "bruto_usd": 1.4761,
+    "comision_compra_usd": 0.1151,
+    "comision_venta_usd": 0.1162,
+    "comision_usd": 0.2313,
+    "spread_usd": 0.04,
+    "slippage_usd": 0.3024,
+    "costes_totales_usd": 0.5737,
     "retiro_usd": 1.5001,
     "retiro_detalle": {
       "bitcoin": 1.1825,
@@ -238,39 +308,39 @@
     },
     "retiro_peor_caso_usd": 10.6133,
     "retiro_1_usdt_usd": 1.5,
-    "neto_1_retiro_usd": -0.2224,
+    "neto_1_retiro_usd": -0.5976,
     "veredicto_1_retiro": "NO RENTABLE (en este backtest)",
-    "neto_tras_retiro_usd": -0.2225,
+    "neto_tras_retiro_usd": -0.5977,
     "twap_enabled": false,
     "twap_ahorro_usd": 0.0,
     "meta_60_win_rate": true,
     "meta_60_avg_win_mayor": true,
     "meta_60_cumplida": true,
     "esperanza_check": {
-      "ganancia_esperada": 0.1979,
-      "perdida_esperada": 0.0996
+      "ganancia_esperada": 0.1398,
+      "perdida_esperada": 0.0704
     },
     "verdict": "NO RENTABLE (en este backtest)",
     "per_coin": {
       "bitcoin": {
         "trades": 6,
         "wins": 4,
-        "pnl_usd": 0.3434
+        "pnl_usd": 0.2425
       },
       "ethereum": {
         "trades": 3,
         "wins": 2,
-        "pnl_usd": 0.8353
+        "pnl_usd": 0.5901
       },
       "solana": {
         "trades": 4,
         "wins": 2,
-        "pnl_usd": 0.0989
+        "pnl_usd": 0.0697
       }
     }
   },
   "ultima_operacion_cierre": null,
-  "ultima_actualizacion": "2026-11-25T08:44:24.103725+00:00",
+  "ultima_actualizacion": "2026-11-25T09:14:26.621367+00:00",
   "costes": {
     "bruto_usd": 0,
     "comision_compra_usd": 0,
@@ -317,28 +387,28 @@
       {
         "regla": "MEME-01",
         "usos": 17,
-        "peso": 16.998,
+        "peso": 16.981,
         "ultimo_uso": "2026-11-25T08:41:50+00:00",
         "estado": "activa"
       },
       {
         "regla": "FLUJO-01",
         "usos": 14,
-        "peso": 13.999,
+        "peso": 13.984,
         "ultimo_uso": "2026-11-25T08:41:50+00:00",
         "estado": "activa"
       },
       {
         "regla": "MERCADO-01",
         "usos": 5,
-        "peso": 5.0,
+        "peso": 4.994,
         "ultimo_uso": "2026-11-25T08:41:49+00:00",
         "estado": "activa"
       },
       {
         "regla": "MERCADO-02",
         "usos": 4,
-        "peso": 3.999,
+        "peso": 3.995,
         "ultimo_uso": "2026-11-25T08:40:12+00:00",
         "estado": "activa"
       },
@@ -383,37 +453,37 @@
         "de": "FLUJO-01",
         "a": "MEME-01",
         "veces": 12,
-        "peso": 11.999
+        "peso": 11.987
       },
       {
         "de": "FLUJO-01",
         "a": "MERCADO-01",
         "veces": 4,
-        "peso": 4.0
+        "peso": 3.996
       },
       {
         "de": "MEME-01",
         "a": "MERCADO-01",
         "veces": 4,
-        "peso": 4.0
+        "peso": 3.996
       },
       {
         "de": "MEME-01",
         "a": "MERCADO-02",
         "veces": 4,
-        "peso": 3.999
+        "peso": 3.995
       },
       {
         "de": "FLUJO-01",
         "a": "MERCADO-02",
         "veces": 2,
-        "peso": 2.0
+        "peso": 1.998
       },
       {
         "de": "MERCADO-01",
         "a": "MERCADO-02",
         "veces": 1,
-        "peso": 1.0
+        "peso": 0.999
       }
     ],
     "resumen": {
@@ -699,7 +769,7 @@
       "abiertas": 0
     },
     "logger": {
-      "registros": 114
+      "registros": 141
     },
     "equity": {
       "saldo": 141.3,
@@ -766,10 +836,10 @@
       "closed_at": "2026-09-12T12:00:00+00:00",
       "entry_price": "77300.536869",
       "exit_price": "77243.498491",
-      "size_usd": "12.5",
-      "pnl_usd": "-0.0342",
+      "size_usd": "8.83",
+      "pnl_usd": "-0.0242",
       "pnl_pct": "-0.27",
-      "balance_after": "199.97",
+      "balance_after": "141.28",
       "close_reason": "senal-venta"
     },
     {
@@ -778,10 +848,10 @@
       "closed_at": "2026-10-01T22:00:00+00:00",
       "entry_price": "83814.947694",
       "exit_price": "84415.735048",
-      "size_usd": "12.5",
-      "pnl_usd": "0.0645",
+      "size_usd": "8.83",
+      "pnl_usd": "0.0456",
       "pnl_pct": "0.52",
-      "balance_after": "200.03",
+      "balance_after": "141.32",
       "close_reason": "senal-venta"
     },
     {
@@ -790,10 +860,10 @@
       "closed_at": "2026-10-20T15:00:00+00:00",
       "entry_price": "82052.573523",
       "exit_price": "83111.784434",
-      "size_usd": "12.5",
-      "pnl_usd": "0.1362",
+      "size_usd": "8.83",
+      "pnl_usd": "0.0962",
       "pnl_pct": "1.09",
-      "balance_after": "200.17",
+      "balance_after": "141.42",
       "close_reason": "senal-venta"
     },
     {
@@ -802,10 +872,10 @@
       "closed_at": "2026-11-04T15:00:00+00:00",
       "entry_price": "76505.987053",
       "exit_price": "79126.827209",
-      "size_usd": "12.51",
-      "pnl_usd": "0.4031",
+      "size_usd": "8.84",
+      "pnl_usd": "0.2848",
       "pnl_pct": "3.22",
-      "balance_after": "200.57",
+      "balance_after": "141.7",
       "close_reason": "senal-venta"
     },
     {
@@ -814,10 +884,10 @@
       "closed_at": "2026-11-07T08:00:00+00:00",
       "entry_price": "79699.212293",
       "exit_price": "75933.009634",
-      "size_usd": "12.54",
-      "pnl_usd": "-0.6171",
+      "size_usd": "8.86",
+      "pnl_usd": "-0.436",
       "pnl_pct": "-4.92",
-      "balance_after": "199.95",
+      "balance_after": "141.27",
       "close_reason": "senal-venta"
     },
     {
@@ -826,10 +896,10 @@
       "closed_at": "2026-11-22T17:00:00+00:00",
       "entry_price": "59133.627666",
       "exit_price": "61103.158822",
-      "size_usd": "12.5",
-      "pnl_usd": "0.3909",
+      "size_usd": "8.83",
+      "pnl_usd": "0.2761",
       "pnl_pct": "3.13",
-      "balance_after": "200.34",
+      "balance_after": "141.54",
       "close_reason": "senal-venta"
     },
     {
@@ -838,10 +908,10 @@
       "closed_at": "2026-09-12T12:00:00+00:00",
       "entry_price": "2536.095615",
       "exit_price": "2532.301679",
-      "size_usd": "12.52",
-      "pnl_usd": "-0.0438",
+      "size_usd": "8.85",
+      "pnl_usd": "-0.0309",
       "pnl_pct": "-0.35",
-      "balance_after": "200.3",
+      "balance_after": "141.51",
       "close_reason": "senal-venta"
     },
     {
@@ -850,10 +920,10 @@
       "closed_at": "2026-11-04T15:00:00+00:00",
       "entry_price": "2280.64668",
       "exit_price": "2372.423775",
-      "size_usd": "12.52",
-      "pnl_usd": "0.4783",
+      "size_usd": "8.84",
+      "pnl_usd": "0.3377",
       "pnl_pct": "3.82",
-      "balance_after": "200.78",
+      "balance_after": "141.85",
       "close_reason": "senal-venta"
     },
     {
@@ -862,10 +932,10 @@
       "closed_at": "2026-11-22T17:00:00+00:00",
       "entry_price": "1662.402338",
       "exit_price": "1718.881048",
-      "size_usd": "12.55",
-      "pnl_usd": "0.4008",
+      "size_usd": "8.87",
+      "pnl_usd": "0.2833",
       "pnl_pct": "3.19",
-      "balance_after": "201.18",
+      "balance_after": "142.13",
       "close_reason": "senal-venta"
     },
     {
@@ -874,10 +944,10 @@
       "closed_at": "2026-09-05T08:00:00+00:00",
       "entry_price": "104.546653",
       "exit_price": "102.021547",
-      "size_usd": "12.57",
-      "pnl_usd": "-0.3284",
+      "size_usd": "8.88",
+      "pnl_usd": "-0.232",
       "pnl_pct": "-2.61",
-      "balance_after": "200.85",
+      "balance_after": "141.9",
       "close_reason": "senal-venta"
     },
     {
@@ -886,10 +956,10 @@
       "closed_at": "2026-10-02T03:00:00+00:00",
       "entry_price": "122.19944",
       "exit_price": "119.798835",
-      "size_usd": "12.55",
-      "pnl_usd": "-0.2714",
+      "size_usd": "8.87",
+      "pnl_usd": "-0.1918",
       "pnl_pct": "-2.16",
-      "balance_after": "200.58",
+      "balance_after": "141.71",
       "close_reason": "senal-venta"
     },
     {
@@ -898,10 +968,10 @@
       "closed_at": "2026-10-20T15:00:00+00:00",
       "entry_price": "104.111074",
       "exit_price": "107.509664",
-      "size_usd": "12.54",
-      "pnl_usd": "0.3839",
+      "size_usd": "8.86",
+      "pnl_usd": "0.2712",
       "pnl_pct": "3.06",
-      "balance_after": "200.96",
+      "balance_after": "141.98",
       "close_reason": "senal-venta"
     },
     {
@@ -910,10 +980,10 @@
       "closed_at": "2026-11-23T08:00:00+00:00",
       "entry_price": "69.926486",
       "exit_price": "71.820606",
-      "size_usd": "12.56",
-      "pnl_usd": "0.3148",
+      "size_usd": "8.87",
+      "pnl_usd": "0.2223",
       "pnl_pct": "2.51",
-      "balance_after": "201.28",
+      "balance_after": "142.2",
       "close_reason": "senal-venta"
     }
   ],
