@@ -2,614 +2,206 @@
   "demo": true,
   "moneda": "USD (falso, simulacion, $0 real)",
   "saldo_inicial": 141.3,
-  "saldo_actual": 141.0481,
-  "pnl_total_usd": -1.0202,
-  "operaciones": [
-    {
-      "id": 12,
-      "simbolo": "HOGE",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T05:59:06+00:00",
-      "cierre": "2026-11-25T06:16:07+00:00",
-      "entrada": 0.0007047059999999999,
-      "salida": 0.0006538,
-      "tamano_usd": 1.38,
-      "pnl_usd": -0.1076,
-      "pnl_pct": -7.8,
-      "saldo_despues": 141.0481,
-      "motivo_cierre": "fin-de-sesion",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 9,
-      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+0%); volumen 24h >= liquidez (ratio 1.8); liquidez alta ($106535); actividad media en 1h (57 txns); edad del par sana (239.0 h)",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 11,
-      "simbolo": "jingyu",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T05:44:56+00:00",
-      "cierre": "2026-11-25T06:15:59+00:00",
-      "entrada": 0.00010562549999999999,
-      "salida": 0.0001079,
-      "tamano_usd": 1.4,
-      "pnl_usd": 0.0217,
-      "pnl_pct": 1.55,
-      "saldo_despues": 139.7716,
-      "motivo_cierre": "fin-de-sesion",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 9,
-      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+13%); volumen 24h >= liquidez (ratio 9.9); liquidez media ($25808); mucha actividad en 1h (1051 txns); edad del par sana (141.6 h)",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 10,
-      "simbolo": "WASTED",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T05:44:56+00:00",
-      "cierre": "2026-11-25T06:15:52+00:00",
-      "entrada": 0.001130625,
-      "salida": 0.001130625,
-      "tamano_usd": 1.41,
-      "pnl_usd": -0.0084,
-      "pnl_pct": -0.6,
-      "saldo_despues": 138.3458,
-      "motivo_cierre": "fin-de-sesion",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 10,
-      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 10/10, red neuronal -1.0/10, subiendo con calma en 1h (+1%); volumen 24h >= liquidez (ratio 5.5); liquidez alta ($102627); mucha actividad en 1h (504 txns); edad del par sana (611.6 h)",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 9,
-      "simbolo": "Memeployed",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T05:44:57+00:00",
-      "cierre": "2026-11-25T05:58:47+00:00",
-      "entrada": 9.064095e-05,
-      "salida": 8.082e-05,
-      "tamano_usd": 1.38,
-      "pnl_usd": -0.1573,
-      "pnl_pct": -11.4,
-      "saldo_despues": 138.3242,
-      "motivo_cierre": "stop-loss",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 9,
-      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+23%); volumen 24h >= liquidez (ratio 36.2); liquidez media ($25920); mucha actividad en 1h (336 txns); edad del par sana (16.0 h)",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 8,
-      "simbolo": "Memeployed",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T05:42:44+00:00",
-      "cierre": "2026-11-25T05:44:26+00:00",
-      "entrada": 9.028919999999999e-05,
-      "salida": 9.244e-05,
-      "tamano_usd": 1.38,
-      "pnl_usd": 0.0245,
-      "pnl_pct": 1.78,
-      "saldo_despues": 141.2687,
-      "motivo_cierre": "fin-de-sesion",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 9,
-      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+23%); volumen 24h >= liquidez (ratio 36.3); liquidez media ($25874); mucha actividad en 1h (335 txns); edad del par sana (15.9 h)",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 7,
-      "simbolo": "jingyu",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T05:42:44+00:00",
-      "cierre": "2026-11-25T05:44:25+00:00",
-      "entrada": 0.00010592699999999999,
-      "salida": 0.0001051,
-      "tamano_usd": 1.4,
-      "pnl_usd": -0.0193,
-      "pnl_pct": -1.38,
-      "saldo_despues": 139.86,
-      "motivo_cierre": "fin-de-sesion",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 9,
-      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 9/10, red neuronal -1.0/10, subiendo con calma en 1h (+14%); volumen 24h >= liquidez (ratio 10.0); liquidez media ($25845); mucha actividad en 1h (1032 txns); edad del par sana (141.6 h)",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 6,
-      "simbolo": "WASTED",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T05:42:44+00:00",
-      "cierre": "2026-11-25T05:44:24+00:00",
-      "entrada": 0.0011346449999999999,
-      "salida": 0.001112,
-      "tamano_usd": 1.41,
-      "pnl_usd": -0.0365,
-      "pnl_pct": -2.59,
-      "saldo_despues": 138.4751,
-      "motivo_cierre": "fin-de-sesion",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 10,
-      "motivo": "estrategia trend_rsi, régimen bajista, puntaje 10/10, red neuronal -1.0/10, subiendo con calma en 1h (+0%); volumen 24h >= liquidez (ratio 5.5); liquidez alta ($102808); mucha actividad en 1h (502 txns); edad del par sana (611.6 h)",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 5,
-      "simbolo": "YUMA",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T04:40:26+00:00",
-      "cierre": "2026-11-25T04:40:29+00:00",
-      "entrada": 0.00010210799999999999,
-      "salida": 0.0001016,
-      "tamano_usd": 1.39,
-      "pnl_usd": -0.0153,
-      "pnl_pct": -1.1,
-      "saldo_despues": 140.58,
-      "motivo_cierre": "fin-de-sesion",
-      "estrategia": null,
-      "regimen": null,
-      "puntaje": null,
-      "motivo": "fin-de-sesion",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 4,
-      "simbolo": "CHUDJAK",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T04:38:19+00:00",
-      "cierre": "2026-11-25T04:40:28+00:00",
-      "entrada": 2.280345e-05,
-      "salida": 2.153e-05,
-      "tamano_usd": 1.41,
-      "pnl_usd": -0.0869,
-      "pnl_pct": -6.17,
-      "saldo_despues": 139.2,
-      "motivo_cierre": "fin-de-sesion",
-      "estrategia": null,
-      "regimen": null,
-      "puntaje": null,
-      "motivo": "fin-de-sesion",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 3,
-      "simbolo": "TROLL",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T04:39:02+00:00",
-      "cierre": "2026-11-25T04:39:46+00:00",
-      "entrada": 5.9485949999999996e-05,
-      "salida": 3.079e-05,
-      "tamano_usd": 1.38,
-      "pnl_usd": -0.672,
-      "pnl_pct": -48.69,
-      "saldo_despues": 139.26,
-      "motivo_cierre": "stop-loss",
-      "estrategia": null,
-      "regimen": null,
-      "puntaje": null,
-      "motivo": "stop-loss",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 2,
-      "simbolo": "YUMA",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T04:38:19+00:00",
-      "cierre": "2026-11-25T04:39:46+00:00",
-      "entrada": 0.00017215649999999998,
-      "salida": 0.0002028,
-      "tamano_usd": 1.4,
-      "pnl_usd": 0.24,
-      "pnl_pct": 17.15,
-      "saldo_despues": 138.55,
-      "motivo_cierre": "take-profit",
-      "estrategia": null,
-      "regimen": null,
-      "puntaje": null,
-      "motivo": "take-profit",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    },
-    {
-      "id": 1,
-      "simbolo": "TROLL",
-      "cadena": "solana",
-      "dex": "pumpswap",
-      "apertura": "2026-11-25T04:38:19+00:00",
-      "cierre": "2026-11-25T04:38:21+00:00",
-      "entrada": 8.424915e-05,
-      "salida": 7.232e-05,
-      "tamano_usd": 1.38,
-      "pnl_usd": -0.2031,
-      "pnl_pct": -14.71,
-      "saldo_despues": 138.29,
-      "motivo_cierre": "stop-loss",
-      "estrategia": null,
-      "regimen": null,
-      "puntaje": null,
-      "motivo": "stop-loss",
-      "bruto_usd": null,
-      "comision_compra_usd": null,
-      "comision_venta_usd": null,
-      "spread_usd": null,
-      "slippage_usd": null,
-      "red_usd": null,
-      "costes_totales_usd": null,
-      "venue": null,
-      "realized_partial_usd": null
-    }
-  ],
+  "saldo_actual": 141.3,
+  "pnl_total_usd": 0.0,
+  "operaciones": [],
   "posiciones_abiertas": [],
   "contadores": {
-    "operaciones": 12,
-    "ganadas": 3,
-    "perdidas": 9,
+    "operaciones": 0,
+    "ganadas": 0,
+    "perdidas": 0,
     "empatadas": 0,
-    "descartadas": 106,
-    "ejecutadas": 7,
-    "en_seguimiento": 6,
-    "retenidas": 6,
-    "decisiones_totales": 293,
-    "eventos": 49,
-    "precios_observados": 234,
+    "descartadas": 20,
+    "ejecutadas": 0,
+    "en_seguimiento": 1,
+    "retenidas": 1,
+    "decisiones_totales": 109,
+    "eventos": 5,
+    "precios_observados": 0,
     "reglas_aprendidas": 5
   },
   "decisiones_por_tipo": {
-    "AGENT_FLUJO": 34,
-    "AGENT_HOLDERS": 34,
-    "AGENT_RIESGO": 34,
-    "AGENT_SENTIMIENTO": 34,
-    "AGENT_VOLATILIDAD": 34,
-    "CLOSE": 4,
-    "HELD": 6,
-    "OPEN": 7,
-    "REJECT": 106
+    "AGENT_FLUJO": 17,
+    "AGENT_HOLDERS": 17,
+    "AGENT_RIESGO": 17,
+    "AGENT_SENTIMIENTO": 17,
+    "AGENT_VOLATILIDAD": 17,
+    "HELD": 1,
+    "HINT": 3,
+    "REJECT": 20
   },
   "decisiones_recientes": [
     {
-      "hora": "2026-11-25T08:12:35+00:00",
+      "hora": "2026-11-25T08:41:50+00:00",
       "decision": "REJECT",
-      "simbolo": "4CHAN",
+      "simbolo": "Christmax",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
-      "puntaje": 0,
-      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $0 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $43420 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real); puntaje por reglas 0 < 6 (no abre ni con red)"
+      "puntaje": 6,
+      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $254999 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $37158 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real), FLUJO-01: compras 46% < 58% (mandan las ventas)"
     },
     {
-      "hora": "2026-11-25T08:12:35+00:00",
+      "hora": "2026-11-25T08:41:48+00:00",
+      "decision": "AGENT_RIESGO",
+      "simbolo": "Christmax",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 10,
+      "motivo": "riesgo bajo control (saldo $141.30); memoria: Christmax: visto 6 veces antes; rechazado 1 vez; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $249104 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel si"
+    },
+    {
+      "hora": "2026-11-25T08:41:48+00:00",
+      "decision": "AGENT_SENTIMIENTO",
+      "simbolo": "Christmax",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 5,
+      "motivo": "miedo extremo en el mercado (13); token impulsado en DexScreener (atención)"
+    },
+    {
+      "hora": "2026-11-25T08:41:48+00:00",
+      "decision": "AGENT_FLUJO",
+      "simbolo": "Christmax",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 6,
+      "motivo": "compras y ventas parejas (46%)"
+    },
+    {
+      "hora": "2026-11-25T08:41:48+00:00",
+      "decision": "AGENT_HOLDERS",
+      "simbolo": "Christmax",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 7,
+      "motivo": "RugCheck: holders medios (top10 25.9%); mint renunciado; freeze renunciado"
+    },
+    {
+      "hora": "2026-11-25T08:41:47+00:00",
+      "decision": "AGENT_VOLATILIDAD",
+      "simbolo": "Christmax",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 7,
+      "motivo": "respirando en 1h (-1.7%), 6h 0%"
+    },
+    {
+      "hora": "2026-11-25T08:41:47+00:00",
+      "decision": "HINT",
+      "simbolo": "Christmax",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 6,
+      "motivo": "Christmax: visto 6 veces antes; rechazado 1 vez; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $249104 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel si"
+    },
+    {
+      "hora": "2026-11-25T08:41:47+00:00",
+      "decision": "REJECT",
+      "simbolo": "CBUCKS",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 8,
+      "motivo": "reglas rotas: MEME-01: top 10 holders concentrados (36.6% > 30%) (lección PROMOCION-SALIDA: token concentrado es salida, no entrada)"
+    },
+    {
+      "hora": "2026-11-25T08:41:45+00:00",
+      "decision": "AGENT_RIESGO",
+      "simbolo": "CBUCKS",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 10,
+      "motivo": "riesgo bajo control (saldo $141.30); memoria: CBUCKS: visto 5 veces antes"
+    },
+    {
+      "hora": "2026-11-25T08:41:45+00:00",
+      "decision": "AGENT_SENTIMIENTO",
+      "simbolo": "CBUCKS",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 5,
+      "motivo": "miedo extremo en el mercado (13); token impulsado en DexScreener (atención)"
+    },
+    {
+      "hora": "2026-11-25T08:41:45+00:00",
+      "decision": "AGENT_FLUJO",
+      "simbolo": "CBUCKS",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 8,
+      "motivo": "volumen creciendo en 6h; más compras que ventas (60%)"
+    },
+    {
+      "hora": "2026-11-25T08:41:45+00:00",
+      "decision": "AGENT_HOLDERS",
+      "simbolo": "CBUCKS",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 5,
+      "motivo": "RugCheck: holders concentrados (top10 36.6%); mint renunciado; freeze renunciado"
+    },
+    {
+      "hora": "2026-11-25T08:41:45+00:00",
+      "decision": "AGENT_VOLATILIDAD",
+      "simbolo": "CBUCKS",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 8,
+      "motivo": "movimiento sano: +2.4% en 1h"
+    },
+    {
+      "hora": "2026-11-25T08:41:44+00:00",
+      "decision": "HINT",
+      "simbolo": "CBUCKS",
+      "estrategia": "trend_rsi",
+      "regimen": "bajista",
+      "puntaje": 8,
+      "motivo": "CBUCKS: visto 5 veces antes"
+    },
+    {
+      "hora": "2026-11-25T08:40:15+00:00",
       "decision": "REJECT",
       "simbolo": "swordcat",
       "estrategia": "trend_rsi",
       "regimen": "bajista",
       "puntaje": 4,
-      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $485196 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $84362 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real); top 10 holders concentrados (32.7% > 30%) (lección PROMOCION-SALIDA: to"
-    },
-    {
-      "hora": "2026-11-25T08:12:35+00:00",
-      "decision": "REJECT",
-      "simbolo": "TRUMP",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 6,
-      "motivo": "reglas rotas: MERCADO-01, MERCADO-02, MEME-01: top 10 holders concentrados (88.3% > 30%) (lección PROMOCION-SALIDA: token concentrado es salida, no entrada), FLUJO-01: compras 45% < 58% (mandan las ventas); rug check no aprueba; rug check: liquidez baja vs capitalización (ratio 0.016 < 0.05)"
-    },
-    {
-      "hora": "2026-11-25T08:12:35+00:00",
-      "decision": "REJECT",
-      "simbolo": "PUMP",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 6,
-      "motivo": "reglas rotas: MERCADO-01, MERCADO-02, MEME-01: top 10 holders concentrados (59.6% > 30%) (lección PROMOCION-SALIDA: token concentrado es salida, no entrada), FLUJO-01: compras 31% < 58% (mandan las ventas); rug check no aprueba; rug check: liquidez baja vs capitalización (ratio 0.021 < 0.05)"
-    },
-    {
-      "hora": "2026-11-25T08:12:35+00:00",
-      "decision": "REJECT",
-      "simbolo": "CATE",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 6,
-      "motivo": "reglas rotas: MERCADO-01"
-    },
-    {
-      "hora": "2026-11-25T08:12:35+00:00",
-      "decision": "AGENT_RIESGO",
-      "simbolo": "CATE",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 10,
-      "motivo": "riesgo bajo control (saldo $141.05)"
-    },
-    {
-      "hora": "2026-11-25T08:12:35+00:00",
-      "decision": "AGENT_SENTIMIENTO",
-      "simbolo": "CATE",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 4,
-      "motivo": "miedo extremo en el mercado (13)"
-    },
-    {
-      "hora": "2026-11-25T08:12:35+00:00",
-      "decision": "AGENT_FLUJO",
-      "simbolo": "CATE",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 6,
-      "motivo": "volumen muriendo en 1h (0.0x); presión compradora: 75% compras en 1h"
-    },
-    {
-      "hora": "2026-11-25T08:12:35+00:00",
-      "decision": "AGENT_HOLDERS",
-      "simbolo": "CATE",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 9,
-      "motivo": "RugCheck: holders repartidos (top10 17.8%); mint renunciado; freeze renunciado"
-    },
-    {
-      "hora": "2026-11-25T08:12:35+00:00",
-      "decision": "AGENT_VOLATILIDAD",
-      "simbolo": "CATE",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 6,
-      "motivo": "respirando en 1h (-2.1%), 6h 0%"
-    },
-    {
-      "hora": "2026-11-25T08:12:34+00:00",
-      "decision": "REJECT",
-      "simbolo": "pippin",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 7,
-      "motivo": "reglas rotas: AGENTES-01, AGENTES-02, MEME-01: top 10 holders concentrados (69.9% > 30%) (lección PROMOCION-SALIDA: token concentrado es salida, no entrada); veto de holders: 2.0 < 3"
-    },
-    {
-      "hora": "2026-11-25T08:12:34+00:00",
-      "decision": "AGENT_RIESGO",
-      "simbolo": "pippin",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 10,
-      "motivo": "riesgo bajo control (saldo $141.05)"
-    },
-    {
-      "hora": "2026-11-25T08:12:34+00:00",
-      "decision": "AGENT_SENTIMIENTO",
-      "simbolo": "pippin",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 4,
-      "motivo": "miedo extremo en el mercado (13)"
-    },
-    {
-      "hora": "2026-11-25T08:12:34+00:00",
-      "decision": "AGENT_FLUJO",
-      "simbolo": "pippin",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 5,
-      "motivo": "volumen muriendo en 1h (0.0x); más compras que ventas (60%)"
-    },
-    {
-      "hora": "2026-11-25T08:12:34+00:00",
-      "decision": "AGENT_HOLDERS",
-      "simbolo": "pippin",
-      "estrategia": "trend_rsi",
-      "regimen": "bajista",
-      "puntaje": 2,
-      "motivo": "RugCheck: 2 advertencia(s); holders MUY concentrados (top10 69.9%); mint renunciado; freeze renunciado; liquidez con lockers (4)"
+      "motivo": "reglas rotas: MERCADO-01, MEME-01: valor $480925 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $83606 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay salida real); top 10 holders concentrados (32.6% > 30%) (lección PROMOCION-SALIDA: to"
     }
   ],
   "eventos_recientes": [
     {
-      "hora": "2026-11-25T08:12:50+00:00",
-      "agente": "run_bot",
-      "accion": "SESSION_END",
-      "simbolo": null,
-      "motivo": "0 operaciones, 0 cerradas"
-    },
-    {
-      "hora": "2026-11-25T08:12:50+00:00",
-      "agente": "run_bot",
-      "accion": "KILL_SWITCH",
-      "simbolo": null,
-      "motivo": "2026-11-25T08:12:44+00:00 — manual desde terminal"
-    },
-    {
-      "hora": "2026-11-25T08:10:03+00:00",
+      "hora": "2026-11-25T08:41:57+00:00",
       "agente": "run_bot",
       "accion": "SESSION_START",
       "simbolo": null,
-      "motivo": "sesión c6fab6f2, estrategia trend_rsi, régimen bajista"
+      "motivo": "sesión 8a46a477, estrategia trend_rsi, régimen bajista, modo 24/7"
     },
     {
-      "hora": "2026-11-25T08:08:42+00:00",
+      "hora": "2026-11-25T08:41:56+00:00",
       "agente": "run_bot",
       "accion": "SESSION_END",
       "simbolo": null,
-      "motivo": "0 operaciones, 0 cerradas"
+      "motivo": "0 operaciones, 0 cerradas, modo 24/7"
     },
     {
-      "hora": "2026-11-25T08:08:42+00:00",
+      "hora": "2026-11-25T08:36:34+00:00",
       "agente": "run_bot",
       "accion": "SESSION_START",
       "simbolo": null,
-      "motivo": "sesión afcb88a0, estrategia trend_rsi, régimen bajista"
+      "motivo": "sesión 79341539, estrategia trend_rsi, régimen bajista, modo 24/7"
     },
     {
-      "hora": "2026-11-25T08:08:30+00:00",
+      "hora": "2026-11-25T08:36:33+00:00",
       "agente": "run_bot",
       "accion": "SESSION_END",
       "simbolo": null,
-      "motivo": "0 operaciones, 0 cerradas"
+      "motivo": "0 operaciones, 0 cerradas, modo 24/7"
     },
     {
-      "hora": "2026-11-25T07:51:26+00:00",
-      "agente": "learner",
-      "accion": "LEARN",
-      "simbolo": null,
-      "motivo": "CICLO DIARIO DE APRENDIZAJE — 12 operaciones en memoria | General: 12 ops, 3 ganadas (25.0%), factor 0.22, expectativa $-0.0850 | Patrón: stop-loss 3 ops, 0 ganadas, PnL $-1.0324 (el SL no protege de huecos en memecoins) | Patrón: la moneda que más pierde es TROLL (PnL $-0.8751) | NOTA: Muestra insu"
-    },
-    {
-      "hora": "2026-11-25T07:38:27+00:00",
+      "hora": "2026-11-25T08:32:03+00:00",
       "agente": "run_bot",
       "accion": "SESSION_START",
       "simbolo": null,
-      "motivo": "sesión efeeca1b, estrategia trend_rsi, régimen bajista"
-    },
-    {
-      "hora": "2026-11-25T06:53:13+00:00",
-      "agente": "run_bot",
-      "accion": "SESSION_END",
-      "simbolo": null,
-      "motivo": "0 operaciones, 0 cerradas"
-    },
-    {
-      "hora": "2026-11-25T06:22:05+00:00",
-      "agente": "run_bot",
-      "accion": "SESSION_START",
-      "simbolo": null,
-      "motivo": "sesión 94e5153d, estrategia trend_rsi, régimen bajista"
-    },
-    {
-      "hora": "2026-11-25T06:16:08+00:00",
-      "agente": "run_bot",
-      "accion": "SESSION_END",
-      "simbolo": null,
-      "motivo": "cierre manual tras caída en close_all (IncompleteRead, ya corregido): sesión FASE 2 d6553ed7, 4 operaciones"
-    },
-    {
-      "hora": "2026-11-25T06:16:08+00:00",
-      "agente": "executor",
-      "accion": "CLOSE",
-      "simbolo": "HOGE",
-      "motivo": "fin-de-sesion"
-    },
-    {
-      "hora": "2026-11-25T06:16:00+00:00",
-      "agente": "executor",
-      "accion": "CLOSE",
-      "simbolo": "jingyu",
-      "motivo": "fin-de-sesion"
-    },
-    {
-      "hora": "2026-11-25T06:15:52+00:00",
-      "agente": "executor",
-      "accion": "CLOSE",
-      "simbolo": "WASTED",
-      "motivo": "fin-de-sesion"
-    },
-    {
-      "hora": "2026-11-25T05:59:07+00:00",
-      "agente": "executor",
-      "accion": "OPEN",
-      "simbolo": "HOGE",
-      "motivo": "entrada simulada (slippage +0.5%, comisión 0.3%)"
+      "motivo": "sesión 95b817e4, estrategia trend_rsi, régimen bajista, modo 24/7"
     }
   ],
   "backtest": {
@@ -619,25 +211,25 @@
     "wins": 8,
     "losses": 5,
     "win_rate_pct": 61.5,
-    "total_pnl_usd": 0.9024,
-    "initial_balance": 141.3,
-    "final_balance": 142.2,
+    "total_pnl_usd": 1.2776,
+    "initial_balance": 200.0,
+    "final_balance": 201.28,
     "max_losing_streak": 2,
     "profit_factor": 1.99,
-    "expectancy_usd": 0.0694,
-    "avg_win_usd": 0.2271,
-    "avg_loss_usd": 0.183,
+    "expectancy_usd": 0.0983,
+    "avg_win_usd": 0.3216,
+    "avg_loss_usd": 0.259,
     "rr_achieved": 1.24,
-    "max_drawdown_usd": 0.43,
-    "max_drawdown_pct": 0.3,
+    "max_drawdown_usd": 0.62,
+    "max_drawdown_pct": 0.31,
     "costs_applied": true,
-    "bruto_usd": 1.4761,
-    "comision_compra_usd": 0.1151,
-    "comision_venta_usd": 0.1162,
-    "comision_usd": 0.2313,
-    "spread_usd": 0.04,
-    "slippage_usd": 0.3024,
-    "costes_totales_usd": 0.5737,
+    "bruto_usd": 2.0895,
+    "comision_compra_usd": 0.1629,
+    "comision_venta_usd": 0.1644,
+    "comision_usd": 0.3273,
+    "spread_usd": 0.0566,
+    "slippage_usd": 0.428,
+    "costes_totales_usd": 0.8119,
     "retiro_usd": 1.5001,
     "retiro_detalle": {
       "bitcoin": 1.1825,
@@ -646,39 +238,39 @@
     },
     "retiro_peor_caso_usd": 10.6133,
     "retiro_1_usdt_usd": 1.5,
-    "neto_1_retiro_usd": -0.5976,
+    "neto_1_retiro_usd": -0.2224,
     "veredicto_1_retiro": "NO RENTABLE (en este backtest)",
-    "neto_tras_retiro_usd": -0.5977,
+    "neto_tras_retiro_usd": -0.2225,
     "twap_enabled": false,
     "twap_ahorro_usd": 0.0,
     "meta_60_win_rate": true,
     "meta_60_avg_win_mayor": true,
     "meta_60_cumplida": true,
     "esperanza_check": {
-      "ganancia_esperada": 0.1398,
-      "perdida_esperada": 0.0704
+      "ganancia_esperada": 0.1979,
+      "perdida_esperada": 0.0996
     },
     "verdict": "NO RENTABLE (en este backtest)",
     "per_coin": {
       "bitcoin": {
         "trades": 6,
         "wins": 4,
-        "pnl_usd": 0.2425
+        "pnl_usd": 0.3434
       },
       "ethereum": {
         "trades": 3,
         "wins": 2,
-        "pnl_usd": 0.5901
+        "pnl_usd": 0.8353
       },
       "solana": {
         "trades": 4,
         "wins": 2,
-        "pnl_usd": 0.0697
+        "pnl_usd": 0.0989
       }
     }
   },
-  "ultima_operacion_cierre": "2026-11-25T06:16:07+00:00",
-  "ultima_actualizacion": "2026-11-25T08:14:22.828267+00:00",
+  "ultima_operacion_cierre": null,
+  "ultima_actualizacion": "2026-11-25T08:44:24.103725+00:00",
   "costes": {
     "bruto_usd": 0,
     "comision_compra_usd": 0,
@@ -688,29 +280,31 @@
     "slippage_usd": 0,
     "red_usd": 0,
     "costes_totales_usd": 0,
-    "neto_operando_usd": -1.0202,
+    "neto_operando_usd": 0,
+    "neto_modelo_completo_usd": null,
     "retiro_1x_usd": 1.5,
-    "neto_final_usd": -2.5202,
+    "neto_final_usd": -1.5,
+    "neto_final_modelo_completo_usd": null,
     "operaciones_con_desglose": 0,
-    "operaciones_totales": 12,
+    "operaciones_totales": 0,
     "slippage_medio_usd": null
   },
   "metricas": {
-    "operaciones": 12,
-    "ganadas": 3,
-    "perdidas": 9,
-    "win_rate_pct": 25.0,
-    "ganancia_media_usd": 0.0954,
-    "perdida_media_usd": -0.1452,
-    "profit_factor": 0.22,
-    "expectativa_usd": -0.085,
-    "max_drawdown_usd": 3.01,
-    "max_racha_perdidas": 5,
+    "operaciones": 0,
+    "ganadas": 0,
+    "perdidas": 0,
+    "win_rate_pct": 0.0,
+    "ganancia_media_usd": null,
+    "perdida_media_usd": null,
+    "profit_factor": null,
+    "expectativa_usd": null,
+    "max_drawdown_usd": 0.0,
+    "max_racha_perdidas": 0,
     "slippage_medio_usd": null,
     "tiempo_entrada": {
-      "count": 0,
-      "avg_minutes": null,
-      "median_minutes": null
+      "count": 11,
+      "avg_minutes": 8627.1,
+      "median_minutes": 2128.4
     },
     "meta_60": {
       "acierto": false,
@@ -718,130 +312,144 @@
       "cumplida": false
     }
   },
+  "mapa_memoria": {
+    "nodos": [
+      {
+        "regla": "MEME-01",
+        "usos": 17,
+        "peso": 16.998,
+        "ultimo_uso": "2026-11-25T08:41:50+00:00",
+        "estado": "activa"
+      },
+      {
+        "regla": "FLUJO-01",
+        "usos": 14,
+        "peso": 13.999,
+        "ultimo_uso": "2026-11-25T08:41:50+00:00",
+        "estado": "activa"
+      },
+      {
+        "regla": "MERCADO-01",
+        "usos": 5,
+        "peso": 5.0,
+        "ultimo_uso": "2026-11-25T08:41:49+00:00",
+        "estado": "activa"
+      },
+      {
+        "regla": "MERCADO-02",
+        "usos": 4,
+        "peso": 3.999,
+        "ultimo_uso": "2026-11-25T08:40:12+00:00",
+        "estado": "activa"
+      },
+      {
+        "regla": "LECCION_BREZ_SEMANA_PERDIDAS",
+        "usos": 0,
+        "peso": 0.0,
+        "ultimo_uso": null,
+        "estado": "activa"
+      },
+      {
+        "regla": "LECCION_COPIA_TARDE",
+        "usos": 0,
+        "peso": 0.0,
+        "ultimo_uso": null,
+        "estado": "activa"
+      },
+      {
+        "regla": "LECCION_PAPEL_NO_DINERO",
+        "usos": 0,
+        "peso": 0.0,
+        "ultimo_uso": null,
+        "estado": "activa"
+      },
+      {
+        "regla": "LECCION_POPCAT_SALIDA_RAPIDA",
+        "usos": 0,
+        "peso": 0.0,
+        "ultimo_uso": null,
+        "estado": "activa"
+      },
+      {
+        "regla": "LECCION_PROMOCION_SALIDA",
+        "usos": 0,
+        "peso": 0.0,
+        "ultimo_uso": null,
+        "estado": "activa"
+      }
+    ],
+    "enlaces": [
+      {
+        "de": "FLUJO-01",
+        "a": "MEME-01",
+        "veces": 12,
+        "peso": 11.999
+      },
+      {
+        "de": "FLUJO-01",
+        "a": "MERCADO-01",
+        "veces": 4,
+        "peso": 4.0
+      },
+      {
+        "de": "MEME-01",
+        "a": "MERCADO-01",
+        "veces": 4,
+        "peso": 4.0
+      },
+      {
+        "de": "MEME-01",
+        "a": "MERCADO-02",
+        "veces": 4,
+        "peso": 3.999
+      },
+      {
+        "de": "FLUJO-01",
+        "a": "MERCADO-02",
+        "veces": 2,
+        "peso": 2.0
+      },
+      {
+        "de": "MERCADO-01",
+        "a": "MERCADO-02",
+        "veces": 1,
+        "peso": 1.0
+      }
+    ],
+    "resumen": {
+      "reglas_totales": 9,
+      "reglas_activas": 9,
+      "reglas_dormidas": 0,
+      "enlaces": 6
+    },
+    "pistas_dadas": 3
+  },
   "triaje": {
     "puerta": 0.85,
     "carriles": {
-      "ignorar": 49,
-      "vigilar": 6,
+      "ignorar": 20,
+      "vigilar": 1,
       "operar": 0
     },
-    "confianza_promedio": 0.635,
+    "confianza_promedio": 0.654,
     "confianza_por_carril": {
-      "ignorar": 0.611,
-      "vigilar": 0.748
+      "ignorar": 0.657,
+      "vigilar": 0.61
     },
     "retenidas": [
       {
-        "simbolo": "BASKET",
-        "confianza": 0.79,
-        "ruta": "vigilar",
-        "puntaje_regla": 7,
-        "vol": 5.0,
-        "holders": 10.0,
-        "flujo": 10.0,
-        "sent": 4.0,
-        "agente": 7.9,
-        "latencia_ms": 2219.1,
-        "hora": "2026-11-25T06:46:36+00:00",
-        "motivos": "confianza 0.790 < puerta 0.85: retenida para revisión humana"
-      },
-      {
         "simbolo": "ROCKET",
-        "confianza": 0.77,
-        "ruta": "vigilar",
-        "puntaje_regla": 8,
-        "vol": 8.0,
-        "holders": 7.0,
-        "flujo": 9.0,
-        "sent": 5.0,
-        "agente": 7.7,
-        "latencia_ms": 503.6,
-        "hora": "2026-11-25T06:29:32+00:00",
-        "motivos": "confianza 0.770 < puerta 0.85: retenida para revisión humana"
-      },
-      {
-        "simbolo": "ROCKET",
-        "confianza": 0.77,
-        "ruta": "vigilar",
-        "puntaje_regla": 8,
-        "vol": 8.0,
-        "holders": 7.0,
-        "flujo": 9.0,
-        "sent": 5.0,
-        "agente": 7.7,
-        "latencia_ms": 1873.1,
-        "hora": "2026-11-25T06:24:52+00:00",
-        "motivos": "confianza 0.770 < puerta 0.85: retenida para revisión humana"
-      },
-      {
-        "simbolo": "ROCKET",
-        "confianza": 0.74,
+        "confianza": 0.767,
         "ruta": "ignorar",
         "puntaje_regla": 7,
         "vol": 7.0,
         "holders": 7.0,
         "flujo": 9.0,
-        "sent": 5.0,
-        "agente": 7.4,
-        "latencia_ms": 2633.0,
-        "hora": "2026-11-25T08:02:59+00:00",
-        "motivos": "reglas rotas: MEME-01: valor $709714 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $78152 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no h"
-      },
-      {
-        "simbolo": "ROCKET",
-        "confianza": 0.74,
-        "ruta": "ignorar",
-        "puntaje_regla": 7,
-        "vol": 7.0,
-        "holders": 7.0,
-        "flujo": 9.0,
-        "sent": 5.0,
-        "agente": 7.4,
-        "latencia_ms": 2349.9,
-        "hora": "2026-11-25T07:43:02+00:00",
-        "motivos": "reglas rotas: MEME-01: valor $722792 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $78937 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no h"
-      },
-      {
-        "simbolo": "ROCKET",
-        "confianza": 0.74,
-        "ruta": "vigilar",
-        "puntaje_regla": 7,
-        "vol": 7.0,
-        "holders": 7.0,
-        "flujo": 9.0,
-        "sent": 5.0,
-        "agente": 7.4,
-        "latencia_ms": 1052.9,
-        "hora": "2026-11-25T06:53:13+00:00",
-        "motivos": "confianza 0.740 < puerta 0.85: retenida para revisión humana"
-      },
-      {
-        "simbolo": "CBUCKS",
-        "confianza": 0.71,
-        "ruta": "vigilar",
-        "puntaje_regla": 7,
-        "vol": 7.0,
-        "holders": 5.0,
-        "flujo": 10.0,
-        "sent": 5.0,
-        "agente": 7.1,
-        "latencia_ms": 8285.4,
-        "hora": "2026-11-25T06:53:12+00:00",
-        "motivos": "confianza 0.710 < puerta 0.85: retenida para revisión humana"
-      },
-      {
-        "simbolo": "CBUCKS",
-        "confianza": 0.71,
-        "ruta": "vigilar",
-        "puntaje_regla": 7,
-        "vol": 7.0,
-        "holders": 5.0,
-        "flujo": 10.0,
-        "sent": 5.0,
-        "agente": 7.1,
-        "latencia_ms": 1553.9,
-        "hora": "2026-11-25T06:24:54+00:00",
-        "motivos": "confianza 0.710 < puerta 0.85: retenida para revisión humana"
+        "sent": null,
+        "agente": 7.67,
+        "latencia_ms": 1852.7,
+        "hora": "2026-11-25T08:36:30+00:00",
+        "motivos": "reglas rotas: MEME-01: valor $710465 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $78147 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no h"
       },
       {
         "simbolo": "CBUCKS",
@@ -853,202 +461,297 @@
         "flujo": 8.0,
         "sent": 5.0,
         "agente": 6.8,
-        "latencia_ms": 1684.0,
-        "hora": "2026-11-25T08:02:56+00:00",
+        "latencia_ms": 2928.6,
+        "hora": "2026-11-25T08:41:46+00:00",
         "motivos": "reglas rotas: MEME-01: top 10 holders concentrados (36.6% > 30%) (lección PROMOCION-SALIDA: token concentrado es salida, no entrada)"
       },
       {
-        "simbolo": "Jimmies",
-        "confianza": 0.68,
+        "simbolo": "FLOAT",
+        "confianza": 0.67,
+        "ruta": "ignorar",
+        "puntaje_regla": 8,
+        "vol": 8.0,
+        "holders": 8.0,
+        "flujo": 5.0,
+        "sent": 4.0,
+        "agente": 6.7,
+        "latencia_ms": 3408.7,
+        "hora": "2026-11-25T08:39:56+00:00",
+        "motivos": "reglas rotas: FLUJO-01: compras 56% < 58% (mandan las ventas)"
+      },
+      {
+        "simbolo": "FIONA",
+        "confianza": 0.67,
+        "ruta": "ignorar",
+        "puntaje_regla": 10,
+        "vol": 8.0,
+        "holders": 10.0,
+        "flujo": 3.0,
+        "sent": 4.0,
+        "agente": 6.7,
+        "latencia_ms": 2944.5,
+        "hora": "2026-11-25T08:39:27+00:00",
+        "motivos": "reglas rotas: FLUJO-01: compras 43% < 58% (mandan las ventas)"
+      },
+      {
+        "simbolo": "Christmax",
+        "confianza": 0.65,
         "ruta": "ignorar",
         "puntaje_regla": 6,
-        "vol": 2.0,
-        "holders": 9.0,
-        "flujo": 10.0,
+        "vol": 7.0,
+        "holders": 7.0,
+        "flujo": 6.0,
         "sent": 5.0,
-        "agente": 6.8,
-        "latencia_ms": 1962.1,
-        "hora": "2026-11-25T07:53:16+00:00",
-        "motivos": "reglas rotas: MERCADO-01, MEME-01: valor $1150983 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $76151 < mínimo $100000 (lección PAPEL-NO-DINERO: sin "
+        "agente": 6.5,
+        "latencia_ms": 2491.9,
+        "hora": "2026-11-25T08:41:49+00:00",
+        "motivos": "reglas rotas: MERCADO-01, MEME-01: valor $254999 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $37158 < mínimo $100000 (lección PAPEL-NO-DINERO: sin l"
+      },
+      {
+        "simbolo": "CATE",
+        "confianza": 0.64,
+        "ruta": "ignorar",
+        "puntaje_regla": 6,
+        "vol": 6.0,
+        "holders": 9.0,
+        "flujo": 5.0,
+        "sent": 4.0,
+        "agente": 6.4,
+        "latencia_ms": 4143.3,
+        "hora": "2026-11-25T08:40:08+00:00",
+        "motivos": "reglas rotas: MERCADO-01"
+      },
+      {
+        "simbolo": "JIMMY",
+        "confianza": 0.64,
+        "ruta": "ignorar",
+        "puntaje_regla": 8,
+        "vol": 6.0,
+        "holders": 9.0,
+        "flujo": 5.0,
+        "sent": 4.0,
+        "agente": 6.4,
+        "latencia_ms": 2884.3,
+        "hora": "2026-11-25T08:39:37+00:00",
+        "motivos": "reglas rotas: MEME-01: valor $1065110 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $89022 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no "
+      },
+      {
+        "simbolo": "4CHAN",
+        "confianza": 0.64,
+        "ruta": "ignorar",
+        "puntaje_regla": 9,
+        "vol": 8.0,
+        "holders": 7.0,
+        "flujo": 5.0,
+        "sent": 4.0,
+        "agente": 6.4,
+        "latencia_ms": 2959.8,
+        "hora": "2026-11-25T08:39:30+00:00",
+        "motivos": "reglas rotas: MEME-01: valor $0 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $46635 < mínimo $100000 (lección PAPEL-NO-DINERO: sin liquidez no hay sa"
+      },
+      {
+        "simbolo": "mihao",
+        "confianza": 0.61,
+        "ruta": "vigilar",
+        "puntaje_regla": 8,
+        "vol": 6.0,
+        "holders": 8.0,
+        "flujo": 5.0,
+        "sent": 4.0,
+        "agente": 6.1,
+        "latencia_ms": 3023.1,
+        "hora": "2026-11-25T08:39:41+00:00",
+        "motivos": "confianza 0.610 < puerta 0.85: retenida para revisión humana"
+      },
+      {
+        "simbolo": "Christmax",
+        "confianza": 0.6,
+        "ruta": "ignorar",
+        "puntaje_regla": 6,
+        "vol": 6.0,
+        "holders": 7.0,
+        "flujo": 5.0,
+        "sent": null,
+        "agente": 6.0,
+        "latencia_ms": 2062.8,
+        "hora": "2026-11-25T08:36:32+00:00",
+        "motivos": "reglas rotas: MERCADO-01, MEME-01: valor $249104 < mínimo $2000000 (lección PAPEL-NO-DINERO: valor en papel sin liquidez no es dinero); liquidez $36651 < mínimo $100000 (lección PAPEL-NO-DINERO: sin l"
       }
     ],
     "latencia": {
-      "n": 55,
-      "promedio_ms": 1406.0,
-      "max_ms": 8285.4,
+      "n": 21,
+      "promedio_ms": 2834.3,
+      "max_ms": 7217.1,
       "costo_total_usd": 0.0,
       "serie": [
         {
-          "hora": "2026-11-25T08:11:21+00:00",
-          "latencia_ms": 3866.1
+          "hora": "2026-11-25T08:36:30+00:00",
+          "latencia_ms": 1852.7
         },
         {
-          "hora": "2026-11-25T08:11:23+00:00",
-          "latencia_ms": 2169.6
+          "hora": "2026-11-25T08:36:32+00:00",
+          "latencia_ms": 2062.8
         },
         {
-          "hora": "2026-11-25T08:11:27+00:00",
-          "latencia_ms": 3309.6
+          "hora": "2026-11-25T08:37:58+00:00",
+          "latencia_ms": 7217.1
         },
         {
-          "hora": "2026-11-25T08:11:28+00:00",
-          "latencia_ms": 1507.5
+          "hora": "2026-11-25T08:39:27+00:00",
+          "latencia_ms": 2944.5
         },
         {
-          "hora": "2026-11-25T08:11:30+00:00",
-          "latencia_ms": 1426.2
+          "hora": "2026-11-25T08:39:30+00:00",
+          "latencia_ms": 2959.8
         },
         {
-          "hora": "2026-11-25T08:12:31+00:00",
-          "latencia_ms": 282.7
+          "hora": "2026-11-25T08:39:34+00:00",
+          "latencia_ms": 2447.9
         },
         {
-          "hora": "2026-11-25T08:12:32+00:00",
-          "latencia_ms": 0.2
+          "hora": "2026-11-25T08:39:37+00:00",
+          "latencia_ms": 2884.3
         },
         {
-          "hora": "2026-11-25T08:12:32+00:00",
-          "latencia_ms": 262.5
+          "hora": "2026-11-25T08:39:41+00:00",
+          "latencia_ms": 3023.1
         },
         {
-          "hora": "2026-11-25T08:12:32+00:00",
-          "latencia_ms": 334.9
+          "hora": "2026-11-25T08:39:44+00:00",
+          "latencia_ms": 2940.6
         },
         {
-          "hora": "2026-11-25T08:12:33+00:00",
-          "latencia_ms": 281.8
+          "hora": "2026-11-25T08:39:47+00:00",
+          "latencia_ms": 2474.8
         },
         {
-          "hora": "2026-11-25T08:12:33+00:00",
-          "latencia_ms": 306.2
+          "hora": "2026-11-25T08:39:51+00:00",
+          "latencia_ms": 3061.6
         },
         {
-          "hora": "2026-11-25T08:12:34+00:00",
-          "latencia_ms": 277.6
+          "hora": "2026-11-25T08:39:52+00:00",
+          "latencia_ms": 2.5
         },
         {
-          "hora": "2026-11-25T08:12:34+00:00",
-          "latencia_ms": 265.9
+          "hora": "2026-11-25T08:39:56+00:00",
+          "latencia_ms": 3408.7
         },
         {
-          "hora": "2026-11-25T08:12:34+00:00",
-          "latencia_ms": 0.2
+          "hora": "2026-11-25T08:40:00+00:00",
+          "latencia_ms": 4311.4
         },
         {
-          "hora": "2026-11-25T08:12:34+00:00",
-          "latencia_ms": 274.1
+          "hora": "2026-11-25T08:40:04+00:00",
+          "latencia_ms": 2746.0
         },
         {
-          "hora": "2026-11-25T08:12:35+00:00",
-          "latencia_ms": 0.2
+          "hora": "2026-11-25T08:40:08+00:00",
+          "latencia_ms": 4143.3
         },
         {
-          "hora": "2026-11-25T08:12:35+00:00",
-          "latencia_ms": 0.2
+          "hora": "2026-11-25T08:40:11+00:00",
+          "latencia_ms": 2503.2
         },
         {
-          "hora": "2026-11-25T08:12:35+00:00",
-          "latencia_ms": 0.2
+          "hora": "2026-11-25T08:40:14+00:00",
+          "latencia_ms": 1184.5
         },
         {
-          "hora": "2026-11-25T08:12:35+00:00",
-          "latencia_ms": 0.2
+          "hora": "2026-11-25T08:41:46+00:00",
+          "latencia_ms": 2928.6
         },
         {
-          "hora": "2026-11-25T08:12:35+00:00",
-          "latencia_ms": 288.4
+          "hora": "2026-11-25T08:41:49+00:00",
+          "latencia_ms": 2491.9
         }
       ]
     },
     "ultima_senal": {
-      "simbolo": "4CHAN",
+      "simbolo": "Christmax",
       "ruta": "ignorar",
-      "confianza": null,
-      "puntaje_regla": 0,
-      "agente_score": null,
-      "vol": null,
-      "holders": null,
-      "flujo": null,
-      "sent": null,
-      "hora": "2026-11-25T08:12:35+00:00"
+      "confianza": 0.65,
+      "puntaje_regla": 6,
+      "agente_score": 6.5,
+      "vol": 7.0,
+      "holders": 7.0,
+      "flujo": 6.0,
+      "sent": 5.0,
+      "hora": "2026-11-25T08:41:49+00:00"
     }
   },
   "agentes": {
     "scanner": {
-      "evaluadas": 293,
-      "simbolos": 27,
-      "ultima_sesion": 125
+      "evaluadas": 109,
+      "simbolos": 18,
+      "ultima_sesion": 86
     },
     "rug_check": {
-      "filtrados": 106
+      "filtrados": 20
     },
     "sizer": {
-      "tamano_tipico_usd": 1.39,
-      "ultimo_tamano_usd": 1.38
+      "tamano_tipico_usd": null,
+      "ultimo_tamano_usd": null
     },
     "executor": {
-      "ejecutadas": 12,
-      "opens": 7,
-      "closes": 4,
+      "ejecutadas": 0,
+      "opens": 0,
+      "closes": 0,
       "abiertas": 0
     },
     "logger": {
-      "registros": 588
+      "registros": 114
     },
     "equity": {
-      "saldo": 141.0481,
-      "pnl": -1.0202,
-      "ganadas": 3,
-      "perdidas": 9,
-      "acierto_pct": 25.0
+      "saldo": 141.3,
+      "pnl": 0.0,
+      "ganadas": 0,
+      "perdidas": 0,
+      "acierto_pct": 0.0
     },
     "volatilidad": {
-      "ultimo_puntaje": 6,
-      "simbolo": "CATE",
-      "motivo": "respirando en 1h (-2.1%), 6h 0%",
-      "hora": "2026-11-25T08:12:35+00:00"
+      "ultimo_puntaje": 7,
+      "simbolo": "Christmax",
+      "motivo": "respirando en 1h (-1.7%), 6h 0%",
+      "hora": "2026-11-25T08:41:47+00:00"
     },
     "holders": {
-      "ultimo_puntaje": 9,
-      "simbolo": "CATE",
-      "motivo": "RugCheck: holders repartidos (top10 17.8%); mint renunciado; freeze renunciado",
-      "hora": "2026-11-25T08:12:35+00:00"
+      "ultimo_puntaje": 7,
+      "simbolo": "Christmax",
+      "motivo": "RugCheck: holders medios (top10 25.9%); mint renunciado; freeze renunciado",
+      "hora": "2026-11-25T08:41:48+00:00"
     },
     "flujo": {
       "ultimo_puntaje": 6,
-      "simbolo": "CATE",
-      "motivo": "volumen muriendo en 1h (0.0x); presión compradora: 75% compras en 1h",
-      "hora": "2026-11-25T08:12:35+00:00"
+      "simbolo": "Christmax",
+      "motivo": "compras y ventas parejas (46%)",
+      "hora": "2026-11-25T08:41:48+00:00"
     },
     "sentimiento": {
-      "ultimo_puntaje": 4,
-      "simbolo": "CATE",
-      "motivo": "miedo extremo en el mercado (13)",
-      "hora": "2026-11-25T08:12:35+00:00"
+      "ultimo_puntaje": 5,
+      "simbolo": "Christmax",
+      "motivo": "miedo extremo en el mercado (13); token impulsado en DexScreener (atención)",
+      "hora": "2026-11-25T08:41:48+00:00"
     },
     "riesgo": {
       "ultimo_puntaje": 10,
-      "simbolo": "CATE",
-      "motivo": "riesgo bajo control (saldo $141.05)",
-      "hora": "2026-11-25T08:12:35+00:00"
+      "simbolo": "Christmax",
+      "motivo": "riesgo bajo control (saldo $141.30); memoria: Christmax: visto 6 veces antes; rechazado 1 vez; último motivo: reglas rotas: MERCADO-01, MEME-01: valor $249104 < mínimo $2000000 (lección PAPEL-NO-DINER",
+      "hora": "2026-11-25T08:41:48+00:00"
     },
-    "ultimo_puntaje_aprobado": {
-      "simbolo": "HOGE",
-      "puntaje": 9
-    }
+    "ultimo_puntaje_aprobado": null
   },
   "postmortems": [],
   "sesion": {
-    "id": "c6fab6f2",
+    "id": "8a46a477",
     "estrategia": "trend_rsi",
     "regimen": "bajista",
-    "inicio": "2026-11-25T08:10:03+00:00",
-    "estado": "cerrada"
+    "inicio": "2026-11-25T08:41:57+00:00",
+    "estado": "activa"
   },
   "aprendizaje": {
-    "ultimo_ciclo": "2026-11-25T07:51:26+00:00",
+    "ultimo_ciclo": null,
     "reglas": 5,
-    "resumen": "CICLO DIARIO DE APRENDIZAJE — 12 operaciones en memoria | General: 12 ops, 3 ganadas (25.0%), factor 0.22, expectativa $-0.0850 | Patrón: stop-loss 3 ops, 0 ganadas, PnL $-1.0324 (el SL no protege de huecos en memecoins) | Patrón: la moneda que más pierde es TROLL (PnL $-0.8751) | NOTA: Muestra insu"
+    "resumen": null
   },
   "modo": "demo",
   "enlace_exchange": {
@@ -1063,10 +766,10 @@
       "closed_at": "2026-09-12T12:00:00+00:00",
       "entry_price": "77300.536869",
       "exit_price": "77243.498491",
-      "size_usd": "8.83",
-      "pnl_usd": "-0.0242",
+      "size_usd": "12.5",
+      "pnl_usd": "-0.0342",
       "pnl_pct": "-0.27",
-      "balance_after": "141.28",
+      "balance_after": "199.97",
       "close_reason": "senal-venta"
     },
     {
@@ -1075,10 +778,10 @@
       "closed_at": "2026-10-01T22:00:00+00:00",
       "entry_price": "83814.947694",
       "exit_price": "84415.735048",
-      "size_usd": "8.83",
-      "pnl_usd": "0.0456",
+      "size_usd": "12.5",
+      "pnl_usd": "0.0645",
       "pnl_pct": "0.52",
-      "balance_after": "141.32",
+      "balance_after": "200.03",
       "close_reason": "senal-venta"
     },
     {
@@ -1087,10 +790,10 @@
       "closed_at": "2026-10-20T15:00:00+00:00",
       "entry_price": "82052.573523",
       "exit_price": "83111.784434",
-      "size_usd": "8.83",
-      "pnl_usd": "0.0962",
+      "size_usd": "12.5",
+      "pnl_usd": "0.1362",
       "pnl_pct": "1.09",
-      "balance_after": "141.42",
+      "balance_after": "200.17",
       "close_reason": "senal-venta"
     },
     {
@@ -1099,10 +802,10 @@
       "closed_at": "2026-11-04T15:00:00+00:00",
       "entry_price": "76505.987053",
       "exit_price": "79126.827209",
-      "size_usd": "8.84",
-      "pnl_usd": "0.2848",
+      "size_usd": "12.51",
+      "pnl_usd": "0.4031",
       "pnl_pct": "3.22",
-      "balance_after": "141.7",
+      "balance_after": "200.57",
       "close_reason": "senal-venta"
     },
     {
@@ -1111,10 +814,10 @@
       "closed_at": "2026-11-07T08:00:00+00:00",
       "entry_price": "79699.212293",
       "exit_price": "75933.009634",
-      "size_usd": "8.86",
-      "pnl_usd": "-0.436",
+      "size_usd": "12.54",
+      "pnl_usd": "-0.6171",
       "pnl_pct": "-4.92",
-      "balance_after": "141.27",
+      "balance_after": "199.95",
       "close_reason": "senal-venta"
     },
     {
@@ -1123,10 +826,10 @@
       "closed_at": "2026-11-22T17:00:00+00:00",
       "entry_price": "59133.627666",
       "exit_price": "61103.158822",
-      "size_usd": "8.83",
-      "pnl_usd": "0.2761",
+      "size_usd": "12.5",
+      "pnl_usd": "0.3909",
       "pnl_pct": "3.13",
-      "balance_after": "141.54",
+      "balance_after": "200.34",
       "close_reason": "senal-venta"
     },
     {
@@ -1135,10 +838,10 @@
       "closed_at": "2026-09-12T12:00:00+00:00",
       "entry_price": "2536.095615",
       "exit_price": "2532.301679",
-      "size_usd": "8.85",
-      "pnl_usd": "-0.0309",
+      "size_usd": "12.52",
+      "pnl_usd": "-0.0438",
       "pnl_pct": "-0.35",
-      "balance_after": "141.51",
+      "balance_after": "200.3",
       "close_reason": "senal-venta"
     },
     {
@@ -1147,10 +850,10 @@
       "closed_at": "2026-11-04T15:00:00+00:00",
       "entry_price": "2280.64668",
       "exit_price": "2372.423775",
-      "size_usd": "8.84",
-      "pnl_usd": "0.3377",
+      "size_usd": "12.52",
+      "pnl_usd": "0.4783",
       "pnl_pct": "3.82",
-      "balance_after": "141.85",
+      "balance_after": "200.78",
       "close_reason": "senal-venta"
     },
     {
@@ -1159,10 +862,10 @@
       "closed_at": "2026-11-22T17:00:00+00:00",
       "entry_price": "1662.402338",
       "exit_price": "1718.881048",
-      "size_usd": "8.87",
-      "pnl_usd": "0.2833",
+      "size_usd": "12.55",
+      "pnl_usd": "0.4008",
       "pnl_pct": "3.19",
-      "balance_after": "142.13",
+      "balance_after": "201.18",
       "close_reason": "senal-venta"
     },
     {
@@ -1171,10 +874,10 @@
       "closed_at": "2026-09-05T08:00:00+00:00",
       "entry_price": "104.546653",
       "exit_price": "102.021547",
-      "size_usd": "8.88",
-      "pnl_usd": "-0.232",
+      "size_usd": "12.57",
+      "pnl_usd": "-0.3284",
       "pnl_pct": "-2.61",
-      "balance_after": "141.9",
+      "balance_after": "200.85",
       "close_reason": "senal-venta"
     },
     {
@@ -1183,10 +886,10 @@
       "closed_at": "2026-10-02T03:00:00+00:00",
       "entry_price": "122.19944",
       "exit_price": "119.798835",
-      "size_usd": "8.87",
-      "pnl_usd": "-0.1918",
+      "size_usd": "12.55",
+      "pnl_usd": "-0.2714",
       "pnl_pct": "-2.16",
-      "balance_after": "141.71",
+      "balance_after": "200.58",
       "close_reason": "senal-venta"
     },
     {
@@ -1195,10 +898,10 @@
       "closed_at": "2026-10-20T15:00:00+00:00",
       "entry_price": "104.111074",
       "exit_price": "107.509664",
-      "size_usd": "8.86",
-      "pnl_usd": "0.2712",
+      "size_usd": "12.54",
+      "pnl_usd": "0.3839",
       "pnl_pct": "3.06",
-      "balance_after": "141.98",
+      "balance_after": "200.96",
       "close_reason": "senal-venta"
     },
     {
@@ -1207,10 +910,10 @@
       "closed_at": "2026-11-23T08:00:00+00:00",
       "entry_price": "69.926486",
       "exit_price": "71.820606",
-      "size_usd": "8.87",
-      "pnl_usd": "0.2223",
+      "size_usd": "12.56",
+      "pnl_usd": "0.3148",
       "pnl_pct": "2.51",
-      "balance_after": "142.2",
+      "balance_after": "201.28",
       "close_reason": "senal-venta"
     }
   ],
@@ -1222,25 +925,25 @@
       "wins": 8,
       "losses": 5,
       "win_rate_pct": 61.5,
-      "total_pnl_usd": 0.9024,
-      "initial_balance": 141.3,
-      "final_balance": 142.2,
+      "total_pnl_usd": 1.2776,
+      "initial_balance": 200.0,
+      "final_balance": 201.28,
       "max_losing_streak": 2,
       "profit_factor": 1.99,
-      "expectancy_usd": 0.0694,
-      "avg_win_usd": 0.2271,
-      "avg_loss_usd": 0.183,
+      "expectancy_usd": 0.0983,
+      "avg_win_usd": 0.3216,
+      "avg_loss_usd": 0.259,
       "rr_achieved": 1.24,
-      "max_drawdown_usd": 0.43,
-      "max_drawdown_pct": 0.3,
+      "max_drawdown_usd": 0.62,
+      "max_drawdown_pct": 0.31,
       "costs_applied": true,
-      "bruto_usd": 1.4761,
-      "comision_compra_usd": 0.1151,
-      "comision_venta_usd": 0.1162,
-      "comision_usd": 0.2313,
-      "spread_usd": 0.04,
-      "slippage_usd": 0.3024,
-      "costes_totales_usd": 0.5737,
+      "bruto_usd": 2.0895,
+      "comision_compra_usd": 0.1629,
+      "comision_venta_usd": 0.1644,
+      "comision_usd": 0.3273,
+      "spread_usd": 0.0566,
+      "slippage_usd": 0.428,
+      "costes_totales_usd": 0.8119,
       "retiro_usd": 1.5001,
       "retiro_detalle": {
         "bitcoin": 1.1825,
@@ -1249,34 +952,34 @@
       },
       "retiro_peor_caso_usd": 10.6133,
       "retiro_1_usdt_usd": 1.5,
-      "neto_1_retiro_usd": -0.5976,
+      "neto_1_retiro_usd": -0.2224,
       "veredicto_1_retiro": "NO RENTABLE (en este backtest)",
-      "neto_tras_retiro_usd": -0.5977,
+      "neto_tras_retiro_usd": -0.2225,
       "twap_enabled": false,
       "twap_ahorro_usd": 0.0,
       "meta_60_win_rate": true,
       "meta_60_avg_win_mayor": true,
       "meta_60_cumplida": true,
       "esperanza_check": {
-        "ganancia_esperada": 0.1398,
-        "perdida_esperada": 0.0704
+        "ganancia_esperada": 0.1979,
+        "perdida_esperada": 0.0996
       },
       "verdict": "NO RENTABLE (en este backtest)",
       "per_coin": {
         "bitcoin": {
           "trades": 6,
           "wins": 4,
-          "pnl_usd": 0.2425
+          "pnl_usd": 0.3434
         },
         "ethereum": {
           "trades": 3,
           "wins": 2,
-          "pnl_usd": 0.5901
+          "pnl_usd": 0.8353
         },
         "solana": {
           "trades": 4,
           "wins": 2,
-          "pnl_usd": 0.0697
+          "pnl_usd": 0.0989
         }
       }
     },
@@ -1287,25 +990,25 @@
       "wins": 57,
       "losses": 78,
       "win_rate_pct": 42.2,
-      "total_pnl_usd": -9.5194,
-      "initial_balance": 141.3,
-      "final_balance": 131.78,
+      "total_pnl_usd": -13.473,
+      "initial_balance": 200.0,
+      "final_balance": 186.53,
       "max_losing_streak": 7,
       "profit_factor": 0.25,
-      "expectancy_usd": -0.0705,
-      "avg_win_usd": 0.0566,
-      "avg_loss_usd": 0.1634,
+      "expectancy_usd": -0.0998,
+      "avg_win_usd": 0.0801,
+      "avg_loss_usd": 0.2313,
       "rr_achieved": 0.35,
-      "max_drawdown_usd": 9.52,
-      "max_drawdown_pct": 6.74,
+      "max_drawdown_usd": 13.47,
+      "max_drawdown_pct": 6.73,
       "costs_applied": true,
-      "bruto_usd": -3.7565,
-      "comision_compra_usd": 1.1585,
-      "comision_venta_usd": 1.1513,
-      "comision_usd": 2.3098,
-      "spread_usd": 0.3889,
-      "slippage_usd": 3.0642,
-      "costes_totales_usd": 5.7629,
+      "bruto_usd": -5.3165,
+      "comision_compra_usd": 1.6397,
+      "comision_venta_usd": 1.6295,
+      "comision_usd": 3.2692,
+      "spread_usd": 0.5505,
+      "slippage_usd": 4.3368,
+      "costes_totales_usd": 8.1565,
       "retiro_usd": 1.5001,
       "retiro_detalle": {
         "bitcoin": 1.1825,
@@ -1314,34 +1017,34 @@
       },
       "retiro_peor_caso_usd": 86.6444,
       "retiro_1_usdt_usd": 1.5,
-      "neto_1_retiro_usd": -11.0194,
+      "neto_1_retiro_usd": -14.973,
       "veredicto_1_retiro": "NO RENTABLE (en este backtest)",
-      "neto_tras_retiro_usd": -11.0195,
+      "neto_tras_retiro_usd": -14.9731,
       "twap_enabled": false,
       "twap_ahorro_usd": 0.0,
       "meta_60_win_rate": false,
       "meta_60_avg_win_mayor": false,
       "meta_60_cumplida": false,
       "esperanza_check": {
-        "ganancia_esperada": 0.0239,
-        "perdida_esperada": 0.0944
+        "ganancia_esperada": 0.0338,
+        "perdida_esperada": 0.1336
       },
       "verdict": "NO RENTABLE (en este backtest)",
       "per_coin": {
         "bitcoin": {
           "trades": 43,
           "wins": 14,
-          "pnl_usd": -3.3319
+          "pnl_usd": -4.7169
         },
         "ethereum": {
           "trades": 47,
           "wins": 24,
-          "pnl_usd": -2.0312
+          "pnl_usd": -2.8753
         },
         "solana": {
           "trades": 45,
           "wins": 19,
-          "pnl_usd": -4.1558
+          "pnl_usd": -5.8814
         }
       }
     },
@@ -1352,25 +1055,25 @@
       "wins": 49,
       "losses": 150,
       "win_rate_pct": 24.6,
-      "total_pnl_usd": -8.1937,
-      "initial_balance": 141.3,
-      "final_balance": 133.11,
+      "total_pnl_usd": -11.5977,
+      "initial_balance": 200.0,
+      "final_balance": 188.4,
       "max_losing_streak": 9,
       "profit_factor": 0.42,
-      "expectancy_usd": -0.0412,
-      "avg_win_usd": 0.1227,
-      "avg_loss_usd": 0.0947,
+      "expectancy_usd": -0.0583,
+      "avg_win_usd": 0.1736,
+      "avg_loss_usd": 0.134,
       "rr_achieved": 1.3,
-      "max_drawdown_usd": 8.57,
-      "max_drawdown_pct": 6.07,
+      "max_drawdown_usd": 12.13,
+      "max_drawdown_pct": 6.06,
       "costs_applied": true,
-      "bruto_usd": 0.2573,
-      "comision_compra_usd": 1.7094,
-      "comision_venta_usd": 1.7045,
-      "comision_usd": 3.4139,
-      "spread_usd": 0.597,
-      "slippage_usd": 4.4401,
-      "costes_totales_usd": 8.451,
+      "bruto_usd": 0.3644,
+      "comision_compra_usd": 2.4196,
+      "comision_venta_usd": 2.4128,
+      "comision_usd": 4.8324,
+      "spread_usd": 0.845,
+      "slippage_usd": 6.2847,
+      "costes_totales_usd": 11.9621,
       "retiro_usd": 1.5001,
       "retiro_detalle": {
         "bitcoin": 1.1825,
@@ -1379,34 +1082,34 @@
       },
       "retiro_peor_caso_usd": 149.0233,
       "retiro_1_usdt_usd": 1.5,
-      "neto_1_retiro_usd": -9.6937,
+      "neto_1_retiro_usd": -13.0977,
       "veredicto_1_retiro": "NO RENTABLE (en este backtest)",
-      "neto_tras_retiro_usd": -9.6938,
+      "neto_tras_retiro_usd": -13.0978,
       "twap_enabled": false,
       "twap_ahorro_usd": 0.0,
       "meta_60_win_rate": false,
       "meta_60_avg_win_mayor": true,
       "meta_60_cumplida": false,
       "esperanza_check": {
-        "ganancia_esperada": 0.0302,
-        "perdida_esperada": 0.0714
+        "ganancia_esperada": 0.0428,
+        "perdida_esperada": 0.101
       },
       "verdict": "NO RENTABLE (en este backtest)",
       "per_coin": {
         "bitcoin": {
           "trades": 75,
           "wins": 16,
-          "pnl_usd": -3.3941
+          "pnl_usd": -4.8038
         },
         "ethereum": {
           "trades": 63,
           "wins": 15,
-          "pnl_usd": -2.3472
+          "pnl_usd": -3.3227
         },
         "solana": {
           "trades": 61,
           "wins": 18,
-          "pnl_usd": -2.4527
+          "pnl_usd": -3.4711
         }
       }
     },
@@ -1417,25 +1120,25 @@
       "wins": 43,
       "losses": 136,
       "win_rate_pct": 24.0,
-      "total_pnl_usd": -11.7637,
-      "initial_balance": 141.3,
-      "final_balance": 129.54,
+      "total_pnl_usd": -16.6505,
+      "initial_balance": 200.0,
+      "final_balance": 183.35,
       "max_losing_streak": 14,
       "profit_factor": 0.32,
-      "expectancy_usd": -0.0657,
-      "avg_win_usd": 0.1308,
-      "avg_loss_usd": 0.1279,
+      "expectancy_usd": -0.093,
+      "avg_win_usd": 0.1852,
+      "avg_loss_usd": 0.181,
       "rr_achieved": 1.02,
-      "max_drawdown_usd": 11.94,
+      "max_drawdown_usd": 16.91,
       "max_drawdown_pct": 8.44,
       "costs_applied": true,
-      "bruto_usd": -4.1611,
-      "comision_compra_usd": 1.5285,
-      "comision_venta_usd": 1.5198,
-      "comision_usd": 3.0483,
-      "spread_usd": 0.514,
-      "slippage_usd": 4.0403,
-      "costes_totales_usd": 7.6026,
+      "bruto_usd": -5.89,
+      "comision_compra_usd": 2.1634,
+      "comision_venta_usd": 2.1511,
+      "comision_usd": 4.3145,
+      "spread_usd": 0.7276,
+      "slippage_usd": 5.7184,
+      "costes_totales_usd": 10.7605,
       "retiro_usd": 1.5001,
       "retiro_detalle": {
         "bitcoin": 1.1825,
@@ -1444,34 +1147,34 @@
       },
       "retiro_peor_caso_usd": 122.5628,
       "retiro_1_usdt_usd": 1.5,
-      "neto_1_retiro_usd": -13.2637,
+      "neto_1_retiro_usd": -18.1505,
       "veredicto_1_retiro": "NO RENTABLE (en este backtest)",
-      "neto_tras_retiro_usd": -13.2638,
+      "neto_tras_retiro_usd": -18.1506,
       "twap_enabled": false,
       "twap_ahorro_usd": 0.0,
       "meta_60_win_rate": false,
       "meta_60_avg_win_mayor": true,
       "meta_60_cumplida": false,
       "esperanza_check": {
-        "ganancia_esperada": 0.0314,
-        "perdida_esperada": 0.0972
+        "ganancia_esperada": 0.0445,
+        "perdida_esperada": 0.1375
       },
       "verdict": "NO RENTABLE (en este backtest)",
       "per_coin": {
         "bitcoin": {
           "trades": 63,
           "wins": 13,
-          "pnl_usd": -3.7445
+          "pnl_usd": -5.3007
         },
         "ethereum": {
           "trades": 56,
           "wins": 16,
-          "pnl_usd": -3.6295
+          "pnl_usd": -5.1378
         },
         "solana": {
           "trades": 60,
           "wins": 14,
-          "pnl_usd": -4.3899
+          "pnl_usd": -6.2118
         }
       }
     }
